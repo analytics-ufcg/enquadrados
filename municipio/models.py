@@ -47,6 +47,16 @@ class Cidade(models.Model):
         data['orgaos'] = data_orgaos
         return data
 
+class Pib(models.Model):
+    cidade = models.ForeignKey(Cidade)
+    valor = models.DecimalField(max_digits=18, decimal_places=2)
+    ano = models.IntegerField()
+
+class Populacao(models.Model):
+    cidade = models.ForeignKey(Cidade)
+    numero = models.BigIntegerField()
+    ano = models.IntegerField()
+
 class OrgaoPublico(models.Model):
     cidade = models.ForeignKey(Cidade)
     nome = models.CharField(max_length=128)
