@@ -47,7 +47,7 @@
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#EF4136;">
         <ul id="meters_squared_per_person" style="margin-left:20px; margin-right:20px;">
           <li>
-            <h5 class="valign white-text" style="height:100px;">Mais funcionários por m2</h5>
+            <h5 class="valign white-text" style="height:100px;">Mais funcionários por m²</h5>
           </li>
           <li><h5 class="valign white-text" style="visibility:hidden;">...</h5></li>
           <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
@@ -125,7 +125,7 @@
               }
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m2<br/><small>(m2 / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} ({{ratio}})</a></h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m²<br/><small>(m² / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} ({{ratio}})</a></h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);

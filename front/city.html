@@ -44,7 +44,7 @@
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#EF4136;">
         <ul id="meters_squared_per_person" style="margin-left:20px; margin-right:20px;">
           <li>
-            <h5 class="valign white-text" id="funcionario-m2" style="height:100px;">X funcionários por m2</h5>
+            <h5 class="valign white-text" id="funcionario-m2" style="height:100px;">X funcionários por m²</h5>
           </li>
         </ul>
       </div>
@@ -111,7 +111,7 @@
               workers_total += data["orgaos"][0]["quantidades"][worker_type];
             }
             if (area > 0) {
-              $("#funcionario-m2").text("m2 por funcionário: " + (area / workers_total).toFixed(2));
+              $("#funcionario-m2").text("m² por funcionário: " + (area / workers_total).toFixed(2));
             } else {
               $("#funcionario-m2").text("Não temos dados de área dessa cidade :(");
             }
