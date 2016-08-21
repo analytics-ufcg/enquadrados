@@ -1,0 +1,2066 @@
+"ano","mes","cidade","quantidade.assistente"
+"2006","04","Manaíra",1
+"2008","07","Patos",5
+"2009","12","Campina Grande",134
+"2009","10","Campina Grande",130
+"2009","11","Campina Grande",130
+"2009","09","Campina Grande",110
+"2009","04","Campina Grande",108
+"2009","05","Campina Grande",107
+"2009","08","Campina Grande",107
+"2009","06","Campina Grande",106
+"2009","07","Campina Grande",106
+"2009","03","Campina Grande",103
+"2009","02","Campina Grande",100
+"2009","01","Campina Grande",96
+"2009","09","Sousa",52
+"2009","10","Sousa",52
+"2009","11","Sousa",52
+"2009","02","Sousa",51
+"2009","03","Sousa",51
+"2009","04","Sousa",51
+"2009","05","Sousa",51
+"2009","06","Sousa",51
+"2009","07","Sousa",51
+"2009","08","Sousa",51
+"2009","01","Sousa",41
+"2009","12","Santa Rita",39
+"2009","06","Santa Rita",35
+"2009","01","Santa Rita",33
+"2009","02","Santa Rita",33
+"2009","03","Santa Rita",33
+"2009","04","Santa Rita",33
+"2009","05","Santa Rita",33
+"2009","07","Santa Rita",33
+"2009","08","Santa Rita",33
+"2009","09","Santa Rita",33
+"2009","11","Santa Rita",33
+"2009","10","Santa Rita",32
+"2009","04","Patos",24
+"2009","05","Patos",24
+"2009","06","Patos",24
+"2009","07","Patos",24
+"2009","08","Patos",24
+"2009","03","Patos",23
+"2009","02","Patos",18
+"2009","09","Patos",17
+"2009","10","Patos",17
+"2009","11","Patos",17
+"2009","12","Patos",17
+"2009","01","Patos",16
+"2009","02","Mamanguape",14
+"2009","03","Mamanguape",14
+"2009","04","Mamanguape",14
+"2009","05","Mamanguape",14
+"2009","06","Mamanguape",14
+"2009","07","Mamanguape",14
+"2009","01","Mamanguape",13
+"2009","08","Mamanguape",13
+"2009","02","Bayeux",12
+"2009","02","Guarabira",12
+"2009","03","Bayeux",12
+"2009","03","Guarabira",12
+"2009","04","Bayeux",12
+"2009","04","Guarabira",12
+"2009","05","Bayeux",12
+"2009","05","Guarabira",12
+"2009","06","Guarabira",12
+"2009","07","Guarabira",12
+"2009","08","Guarabira",12
+"2009","09","Guarabira",12
+"2009","09","Mamanguape",12
+"2009","10","Guarabira",12
+"2009","10","Mamanguape",12
+"2009","11","Guarabira",12
+"2009","11","Mamanguape",12
+"2009","12","Guarabira",12
+"2009","12","Mamanguape",12
+"2009","01","Bayeux",11
+"2009","06","Bayeux",11
+"2009","07","Bayeux",11
+"2009","08","Bayeux",11
+"2009","12","Caaporã",10
+"2009","06","Caaporã",9
+"2009","07","Caaporã",9
+"2009","08","Caaporã",9
+"2009","09","Bayeux",9
+"2009","09","Caaporã",9
+"2009","10","Bayeux",9
+"2009","10","Caaporã",9
+"2009","11","Caaporã",9
+"2009","12","Bayeux",9
+"2009","03","Caaporã",8
+"2009","04","Caaporã",8
+"2009","05","Caaporã",8
+"2009","11","Bayeux",8
+"2009","02","Caaporã",7
+"2009","06","Soledade",6
+"2009","12","Soledade",6
+"2009","01","Caaporã",5
+"2009","01","Cabedelo",5
+"2009","01","Soledade",5
+"2009","02","Cabedelo",5
+"2009","02","Soledade",5
+"2009","03","Cabedelo",5
+"2009","04","Cabedelo",5
+"2009","05","Cabedelo",5
+"2009","05","Soledade",5
+"2009","06","Cabedelo",5
+"2009","07","Cabedelo",5
+"2009","07","Soledade",5
+"2009","08","Cabedelo",5
+"2009","08","Soledade",5
+"2009","09","Cabedelo",5
+"2009","10","Cabedelo",5
+"2009","11","Cabedelo",5
+"2009","12","Cabedelo",5
+"2009","01","Bananeiras",4
+"2009","01","Cuité",4
+"2009","02","Bananeiras",4
+"2009","02","Cuité",4
+"2009","03","Bananeiras",4
+"2009","03","Cuité",4
+"2009","03","Soledade",4
+"2009","04","Bananeiras",4
+"2009","04","Cuité",4
+"2009","04","Soledade",4
+"2009","05","Bananeiras",4
+"2009","05","Cuité",4
+"2009","06","Bananeiras",4
+"2009","06","Cuité",4
+"2009","07","Bananeiras",4
+"2009","07","Cuité",4
+"2009","08","Bananeiras",4
+"2009","08","Cuité",4
+"2009","09","Bananeiras",4
+"2009","09","Cuité",4
+"2009","09","Soledade",4
+"2009","10","Bananeiras",4
+"2009","10","Cuité",4
+"2009","10","Soledade",4
+"2009","11","Bananeiras",4
+"2009","11","Cuité",4
+"2009","11","Soledade",4
+"2009","12","Bananeiras",4
+"2009","12","Cuité",4
+"2009","01","Sapé",3
+"2009","02","Sapé",3
+"2009","03","Sapé",3
+"2009","04","Sapé",3
+"2009","05","Sapé",3
+"2009","06","Sapé",3
+"2009","07","Sapé",3
+"2009","08","Sapé",3
+"2009","09","Sapé",3
+"2009","10","Sapé",3
+"2009","11","Sapé",3
+"2009","12","Sapé",3
+"2009","01","Cuité de Mamanguape",2
+"2009","01","Curral de Cima",2
+"2009","01","Solânea",2
+"2009","01","Vista Serrana",2
+"2009","02","Cuité de Mamanguape",2
+"2009","02","Curral de Cima",2
+"2009","02","Solânea",2
+"2009","02","Vista Serrana",2
+"2009","03","Cuité de Mamanguape",2
+"2009","03","Curral de Cima",2
+"2009","03","Solânea",2
+"2009","03","Vista Serrana",2
+"2009","04","Aroeiras",2
+"2009","04","Cuité de Mamanguape",2
+"2009","04","Curral de Cima",2
+"2009","04","Solânea",2
+"2009","04","Vista Serrana",2
+"2009","05","Aroeiras",2
+"2009","05","Cuité de Mamanguape",2
+"2009","05","Curral de Cima",2
+"2009","05","Solânea",2
+"2009","05","Vista Serrana",2
+"2009","06","Aroeiras",2
+"2009","06","Cuité de Mamanguape",2
+"2009","06","Curral de Cima",2
+"2009","06","Solânea",2
+"2009","06","Vista Serrana",2
+"2009","07","Aroeiras",2
+"2009","07","Cuité de Mamanguape",2
+"2009","07","Curral de Cima",2
+"2009","07","Solânea",2
+"2009","07","Vista Serrana",2
+"2009","08","Aroeiras",2
+"2009","08","Cuité de Mamanguape",2
+"2009","08","Curral de Cima",2
+"2009","08","Solânea",2
+"2009","08","Vista Serrana",2
+"2009","09","Aroeiras",2
+"2009","09","Cuité de Mamanguape",2
+"2009","09","Curral de Cima",2
+"2009","09","Solânea",2
+"2009","09","Vista Serrana",2
+"2009","10","Aroeiras",2
+"2009","10","Camalaú",2
+"2009","10","Cuité de Mamanguape",2
+"2009","10","Curral de Cima",2
+"2009","10","Solânea",2
+"2009","10","Vista Serrana",2
+"2009","11","Aroeiras",2
+"2009","11","Camalaú",2
+"2009","11","Cuité de Mamanguape",2
+"2009","11","Curral de Cima",2
+"2009","11","Solânea",2
+"2009","11","Vista Serrana",2
+"2009","12","Aroeiras",2
+"2009","12","Camalaú",2
+"2009","12","Cuité de Mamanguape",2
+"2009","12","Solânea",2
+"2009","12","Sousa",2
+"2009","12","Vista Serrana",2
+"2009","01","Alhandra",1
+"2009","01","Aroeiras",1
+"2009","01","Brejo dos Santos",1
+"2009","01","Camalaú",1
+"2009","01","Catingueira",1
+"2009","01","Guarabira",1
+"2009","01","Mãe d'Água",1
+"2009","01","Manaíra",1
+"2009","01","Uiraúna",1
+"2009","02","Alhandra",1
+"2009","02","Aroeiras",1
+"2009","02","Brejo dos Santos",1
+"2009","02","Camalaú",1
+"2009","02","Catingueira",1
+"2009","02","Mãe d'Água",1
+"2009","02","Manaíra",1
+"2009","02","Uiraúna",1
+"2009","03","Alhandra",1
+"2009","03","Aroeiras",1
+"2009","03","Brejo dos Santos",1
+"2009","03","Camalaú",1
+"2009","03","Catingueira",1
+"2009","03","Mãe d'Água",1
+"2009","03","Manaíra",1
+"2009","03","Uiraúna",1
+"2009","04","Alhandra",1
+"2009","04","Brejo dos Santos",1
+"2009","04","Camalaú",1
+"2009","04","Catingueira",1
+"2009","04","Mãe d'Água",1
+"2009","04","Manaíra",1
+"2009","04","Uiraúna",1
+"2009","05","Alhandra",1
+"2009","05","Brejo dos Santos",1
+"2009","05","Camalaú",1
+"2009","05","Catingueira",1
+"2009","05","Mãe d'Água",1
+"2009","05","Manaíra",1
+"2009","05","Uiraúna",1
+"2009","06","Alhandra",1
+"2009","06","Brejo dos Santos",1
+"2009","06","Camalaú",1
+"2009","06","Catingueira",1
+"2009","06","Logradouro",1
+"2009","06","Mãe d'Água",1
+"2009","06","Manaíra",1
+"2009","06","Uiraúna",1
+"2009","07","Alhandra",1
+"2009","07","Brejo dos Santos",1
+"2009","07","Camalaú",1
+"2009","07","Catingueira",1
+"2009","07","Logradouro",1
+"2009","07","Mãe d'Água",1
+"2009","07","Manaíra",1
+"2009","07","Uiraúna",1
+"2009","08","Alhandra",1
+"2009","08","Brejo dos Santos",1
+"2009","08","Camalaú",1
+"2009","08","Catingueira",1
+"2009","08","Logradouro",1
+"2009","08","Mãe d'Água",1
+"2009","08","Manaíra",1
+"2009","08","Uiraúna",1
+"2009","09","Alhandra",1
+"2009","09","Brejo dos Santos",1
+"2009","09","Camalaú",1
+"2009","09","Catingueira",1
+"2009","09","Logradouro",1
+"2009","09","Mãe d'Água",1
+"2009","09","Manaíra",1
+"2009","09","Uiraúna",1
+"2009","10","Alhandra",1
+"2009","10","Brejo dos Santos",1
+"2009","10","Catingueira",1
+"2009","10","Logradouro",1
+"2009","10","Mãe d'Água",1
+"2009","10","Manaíra",1
+"2009","10","Uiraúna",1
+"2009","11","Alhandra",1
+"2009","11","Brejo dos Santos",1
+"2009","11","Catingueira",1
+"2009","11","Logradouro",1
+"2009","11","Mãe d'Água",1
+"2009","11","Manaíra",1
+"2009","11","Uiraúna",1
+"2009","12","Alhandra",1
+"2009","12","Brejo dos Santos",1
+"2009","12","Catingueira",1
+"2009","12","Logradouro",1
+"2009","12","Mãe d'Água",1
+"2009","12","Manaíra",1
+"2009","12","Uiraúna",1
+"2010","12","Campina Grande",138
+"2010","04","Campina Grande",122
+"2010","05","Campina Grande",122
+"2010","03","Campina Grande",121
+"2010","06","Campina Grande",121
+"2010","02","Campina Grande",120
+"2010","07","Campina Grande",120
+"2010","08","Campina Grande",120
+"2010","09","Campina Grande",120
+"2010","10","Campina Grande",120
+"2010","11","Campina Grande",120
+"2010","01","Campina Grande",114
+"2010","05","João Pessoa",94
+"2010","06","João Pessoa",94
+"2010","07","João Pessoa",94
+"2010","08","João Pessoa",94
+"2010","09","João Pessoa",94
+"2010","10","João Pessoa",89
+"2010","11","João Pessoa",89
+"2010","12","João Pessoa",89
+"2010","01","Sousa",41
+"2010","02","Sousa",41
+"2010","03","Sousa",41
+"2010","04","Sousa",41
+"2010","05","Sousa",41
+"2010","06","Sousa",41
+"2010","07","Sousa",41
+"2010","08","Sousa",41
+"2010","09","Sousa",41
+"2010","10","Sousa",41
+"2010","11","Sousa",41
+"2010","05","Santa Rita",18
+"2010","04","Santa Rita",17
+"2010","01","Santa Rita",14
+"2010","02","Santa Rita",14
+"2010","06","Santa Rita",14
+"2010","11","Santa Rita",14
+"2010","03","Santa Rita",13
+"2010","07","Santa Rita",13
+"2010","08","Santa Rita",13
+"2010","09","Santa Rita",13
+"2010","10","Santa Rita",13
+"2010","12","Santa Rita",13
+"2010","02","Bayeux",10
+"2010","01","Bayeux",9
+"2010","05","Bayeux",8
+"2010","06","Bayeux",8
+"2010","07","Bayeux",8
+"2010","08","Bayeux",8
+"2010","04","Bayeux",7
+"2010","03","Bayeux",6
+"2010","03","Patos",6
+"2010","04","Bananeiras",6
+"2010","04","Patos",6
+"2010","05","Patos",6
+"2010","06","Patos",6
+"2010","07","Patos",6
+"2010","08","Patos",6
+"2010","09","Bayeux",6
+"2010","09","Patos",6
+"2010","10","Bayeux",6
+"2010","10","Patos",6
+"2010","11","Bayeux",6
+"2010","11","Patos",6
+"2010","12","Bayeux",6
+"2010","12","Patos",6
+"2010","01","Bananeiras",5
+"2010","01","Cabedelo",5
+"2010","01","Patos",5
+"2010","02","Bananeiras",5
+"2010","02","Cabedelo",5
+"2010","02","Patos",5
+"2010","03","Bananeiras",5
+"2010","03","Cabedelo",5
+"2010","04","Cabedelo",5
+"2010","05","Bananeiras",5
+"2010","05","Cabedelo",5
+"2010","06","Bananeiras",5
+"2010","06","Cabedelo",5
+"2010","07","Bananeiras",5
+"2010","07","Cabedelo",5
+"2010","08","Bananeiras",5
+"2010","08","Cabedelo",5
+"2010","09","Bananeiras",5
+"2010","09","Cabedelo",5
+"2010","10","Bananeiras",5
+"2010","10","Cabedelo",5
+"2010","11","Bananeiras",5
+"2010","11","Cabedelo",5
+"2010","12","Bananeiras",5
+"2010","12","Cabedelo",5
+"2010","01","Caaporã",4
+"2010","01","Cuité",4
+"2010","01","Soledade",4
+"2010","02","Caaporã",4
+"2010","02","Cuité",4
+"2010","02","Soledade",4
+"2010","03","Caaporã",4
+"2010","03","Cuité",4
+"2010","03","Soledade",4
+"2010","04","Caaporã",4
+"2010","04","Cuité",4
+"2010","04","Soledade",4
+"2010","05","Caaporã",4
+"2010","05","Cuité",4
+"2010","05","Soledade",4
+"2010","06","Caaporã",4
+"2010","06","Cuité",4
+"2010","06","Soledade",4
+"2010","07","Caaporã",4
+"2010","07","Cuité",4
+"2010","07","Soledade",4
+"2010","08","Caaporã",4
+"2010","08","Cuité",4
+"2010","08","Soledade",4
+"2010","09","Caaporã",4
+"2010","09","Cuité",4
+"2010","09","Soledade",4
+"2010","10","Caaporã",4
+"2010","10","Cuité",4
+"2010","10","Soledade",4
+"2010","11","Caaporã",4
+"2010","11","Cuité",4
+"2010","11","Sapé",4
+"2010","11","Soledade",4
+"2010","12","Caaporã",4
+"2010","12","Cuité",4
+"2010","12","Soledade",4
+"2010","01","Sapé",3
+"2010","02","Sapé",3
+"2010","03","Sapé",3
+"2010","04","Sapé",3
+"2010","05","Sapé",3
+"2010","06","Sapé",3
+"2010","07","Sapé",3
+"2010","08","Sapé",3
+"2010","09","Sapé",3
+"2010","10","Sapé",3
+"2010","12","Sapé",3
+"2010","01","Aroeiras",2
+"2010","01","Camalaú",2
+"2010","01","Guarabira",2
+"2010","01","Solânea",2
+"2010","02","Aroeiras",2
+"2010","02","Camalaú",2
+"2010","02","Guarabira",2
+"2010","02","Solânea",2
+"2010","03","Aroeiras",2
+"2010","03","Camalaú",2
+"2010","03","Guarabira",2
+"2010","03","Solânea",2
+"2010","04","Aroeiras",2
+"2010","04","Camalaú",2
+"2010","04","Guarabira",2
+"2010","04","Solânea",2
+"2010","05","Aroeiras",2
+"2010","05","Camalaú",2
+"2010","05","Guarabira",2
+"2010","05","Solânea",2
+"2010","06","Aroeiras",2
+"2010","06","Camalaú",2
+"2010","06","Guarabira",2
+"2010","06","Solânea",2
+"2010","07","Camalaú",2
+"2010","07","Guarabira",2
+"2010","07","Solânea",2
+"2010","08","Camalaú",2
+"2010","08","Guarabira",2
+"2010","08","Solânea",2
+"2010","09","Camalaú",2
+"2010","09","Guarabira",2
+"2010","09","Solânea",2
+"2010","10","Camalaú",2
+"2010","10","Guarabira",2
+"2010","10","Solânea",2
+"2010","11","Camalaú",2
+"2010","11","Guarabira",2
+"2010","11","Solânea",2
+"2010","12","Camalaú",2
+"2010","12","Guarabira",2
+"2010","12","Solânea",2
+"2010","01","Alhandra",1
+"2010","01","Brejo dos Santos",1
+"2010","01","Catingueira",1
+"2010","01","Logradouro",1
+"2010","01","Mãe d'Água",1
+"2010","01","Manaíra",1
+"2010","01","Uiraúna",1
+"2010","02","Alhandra",1
+"2010","02","Brejo dos Santos",1
+"2010","02","Catingueira",1
+"2010","02","Curral de Cima",1
+"2010","02","Logradouro",1
+"2010","02","Mãe d'Água",1
+"2010","02","Manaíra",1
+"2010","02","Uiraúna",1
+"2010","03","Alhandra",1
+"2010","03","Brejo dos Santos",1
+"2010","03","Catingueira",1
+"2010","03","Curral de Cima",1
+"2010","03","Logradouro",1
+"2010","03","Mãe d'Água",1
+"2010","03","Manaíra",1
+"2010","03","Uiraúna",1
+"2010","04","Alhandra",1
+"2010","04","Brejo dos Santos",1
+"2010","04","Catingueira",1
+"2010","04","Curral de Cima",1
+"2010","04","Logradouro",1
+"2010","04","Mãe d'Água",1
+"2010","04","Manaíra",1
+"2010","04","Uiraúna",1
+"2010","05","Alhandra",1
+"2010","05","Brejo dos Santos",1
+"2010","05","Catingueira",1
+"2010","05","Logradouro",1
+"2010","05","Mãe d'Água",1
+"2010","05","Manaíra",1
+"2010","05","Uiraúna",1
+"2010","06","Alhandra",1
+"2010","06","Brejo dos Santos",1
+"2010","06","Catingueira",1
+"2010","06","Logradouro",1
+"2010","06","Mãe d'Água",1
+"2010","06","Manaíra",1
+"2010","06","Uiraúna",1
+"2010","07","Alhandra",1
+"2010","07","Aroeiras",1
+"2010","07","Brejo dos Santos",1
+"2010","07","Catingueira",1
+"2010","07","Curral de Cima",1
+"2010","07","Logradouro",1
+"2010","07","Mãe d'Água",1
+"2010","07","Manaíra",1
+"2010","07","Uiraúna",1
+"2010","08","Alhandra",1
+"2010","08","Aroeiras",1
+"2010","08","Brejo dos Santos",1
+"2010","08","Catingueira",1
+"2010","08","Logradouro",1
+"2010","08","Mãe d'Água",1
+"2010","08","Manaíra",1
+"2010","08","Uiraúna",1
+"2010","09","Alhandra",1
+"2010","09","Aroeiras",1
+"2010","09","Brejo dos Santos",1
+"2010","09","Catingueira",1
+"2010","09","Logradouro",1
+"2010","09","Mãe d'Água",1
+"2010","09","Manaíra",1
+"2010","09","Uiraúna",1
+"2010","10","Alhandra",1
+"2010","10","Aroeiras",1
+"2010","10","Brejo dos Santos",1
+"2010","10","Catingueira",1
+"2010","10","Logradouro",1
+"2010","10","Mãe d'Água",1
+"2010","10","Manaíra",1
+"2010","10","Uiraúna",1
+"2010","11","Aroeiras",1
+"2010","11","Brejo dos Santos",1
+"2010","11","Catingueira",1
+"2010","11","Logradouro",1
+"2010","11","Mãe d'Água",1
+"2010","11","Manaíra",1
+"2010","11","Riacho dos Cavalos",1
+"2010","11","Uiraúna",1
+"2010","12","Aroeiras",1
+"2010","12","Brejo dos Santos",1
+"2010","12","Catingueira",1
+"2010","12","Logradouro",1
+"2010","12","Mãe d'Água",1
+"2010","12","Manaíra",1
+"2010","12","Riacho dos Cavalos",1
+"2010","12","Sousa",1
+"2010","12","Uiraúna",1
+"2011","11","Campina Grande",146
+"2011","09","Campina Grande",145
+"2011","10","Campina Grande",145
+"2011","07","Campina Grande",142
+"2011","08","Campina Grande",142
+"2011","06","Campina Grande",141
+"2011","03","Campina Grande",139
+"2011","05","Campina Grande",139
+"2011","04","Campina Grande",138
+"2011","02","Campina Grande",126
+"2011","01","Campina Grande",120
+"2011","01","João Pessoa",93
+"2011","03","João Pessoa",93
+"2011","04","João Pessoa",93
+"2011","05","João Pessoa",93
+"2011","06","João Pessoa",93
+"2011","08","João Pessoa",93
+"2011","09","João Pessoa",93
+"2011","02","João Pessoa",92
+"2011","10","João Pessoa",92
+"2011","11","João Pessoa",92
+"2011","12","João Pessoa",92
+"2011","07","João Pessoa",91
+"2011","11","Sousa",52
+"2011","01","Sousa",51
+"2011","02","Sousa",51
+"2011","03","Sousa",51
+"2011","04","Sousa",51
+"2011","05","Sousa",51
+"2011","06","Sousa",51
+"2011","07","Sousa",51
+"2011","08","Sousa",51
+"2011","09","Sousa",51
+"2011","10","Sousa",51
+"2011","11","Santa Rita",30
+"2011","12","Santa Rita",30
+"2011","10","Santa Rita",29
+"2011","01","Santa Rita",28
+"2011","02","Santa Rita",28
+"2011","03","Santa Rita",28
+"2011","04","Santa Rita",28
+"2011","05","Santa Rita",28
+"2011","06","Santa Rita",28
+"2011","07","Santa Rita",28
+"2011","08","Santa Rita",28
+"2011","09","Santa Rita",28
+"2011","01","Guarabira",12
+"2011","02","Guarabira",12
+"2011","03","Guarabira",12
+"2011","04","Guarabira",12
+"2011","05","Guarabira",12
+"2011","06","Guarabira",12
+"2011","07","Guarabira",12
+"2011","08","Guarabira",12
+"2011","09","Guarabira",12
+"2011","10","Guarabira",12
+"2011","11","Guarabira",12
+"2011","12","Guarabira",12
+"2011","02","Bayeux",10
+"2011","03","Bayeux",10
+"2011","04","Bayeux",10
+"2011","05","Bayeux",10
+"2011","06","Bayeux",10
+"2011","07","Bayeux",10
+"2011","08","Bayeux",10
+"2011","10","Bayeux",10
+"2011","11","Bayeux",10
+"2011","12","Bayeux",10
+"2011","01","Bayeux",9
+"2011","10","Curral de Cima",9
+"2011","11","Curral de Cima",9
+"2011","12","Curral de Cima",9
+"2011","09","Bayeux",8
+"2011","01","Patos",6
+"2011","02","Patos",6
+"2011","03","Patos",6
+"2011","04","Patos",6
+"2011","05","Patos",6
+"2011","06","Patos",6
+"2011","07","Patos",6
+"2011","08","Patos",6
+"2011","09","Patos",6
+"2011","10","Patos",6
+"2011","11","Patos",6
+"2011","12","Patos",6
+"2011","10","Soledade",5
+"2011","11","Soledade",5
+"2011","12","Soledade",5
+"2011","01","Cuité",4
+"2011","01","Soledade",4
+"2011","02","Cuité",4
+"2011","02","Soledade",4
+"2011","03","Cuité",4
+"2011","03","Soledade",4
+"2011","04","Cuité",4
+"2011","04","Soledade",4
+"2011","05","Cuité",4
+"2011","05","Soledade",4
+"2011","06","Cuité",4
+"2011","07","Cuité",4
+"2011","07","Curral de Cima",4
+"2011","07","Soledade",4
+"2011","08","Cuité",4
+"2011","08","Soledade",4
+"2011","09","Cuité",4
+"2011","09","Curral de Cima",4
+"2011","10","Cuité",4
+"2011","11","Cuité",4
+"2011","12","Cuité",4
+"2011","01","Caaporã",3
+"2011","01","Cuité de Mamanguape",3
+"2011","01","Sapé",3
+"2011","02","Caaporã",3
+"2011","02","Cuité de Mamanguape",3
+"2011","02","Sapé",3
+"2011","03","Caaporã",3
+"2011","03","Cuité de Mamanguape",3
+"2011","03","Sapé",3
+"2011","04","Caaporã",3
+"2011","04","Cuité de Mamanguape",3
+"2011","04","Sapé",3
+"2011","05","Caaporã",3
+"2011","05","Cuité de Mamanguape",3
+"2011","05","Sapé",3
+"2011","06","Caaporã",3
+"2011","06","Cuité de Mamanguape",3
+"2011","06","Sapé",3
+"2011","07","Caaporã",3
+"2011","07","Cuité de Mamanguape",3
+"2011","08","Caaporã",3
+"2011","08","Cuité de Mamanguape",3
+"2011","08","Curral de Cima",3
+"2011","09","Caaporã",3
+"2011","09","Cuité de Mamanguape",3
+"2011","10","Caaporã",3
+"2011","10","Cuité de Mamanguape",3
+"2011","11","Cuité de Mamanguape",3
+"2011","12","Cuité de Mamanguape",3
+"2011","01","Alhandra",2
+"2011","01","Bananeiras",2
+"2011","01","Camalaú",2
+"2011","01","Solânea",2
+"2011","02","Alhandra",2
+"2011","02","Bananeiras",2
+"2011","02","Camalaú",2
+"2011","02","Solânea",2
+"2011","03","Alhandra",2
+"2011","03","Bananeiras",2
+"2011","03","Camalaú",2
+"2011","03","Curral de Cima",2
+"2011","03","Solânea",2
+"2011","04","Alhandra",2
+"2011","04","Bananeiras",2
+"2011","04","Camalaú",2
+"2011","04","Curral de Cima",2
+"2011","04","Solânea",2
+"2011","05","Alhandra",2
+"2011","05","Bananeiras",2
+"2011","05","Camalaú",2
+"2011","05","Curral de Cima",2
+"2011","05","Solânea",2
+"2011","06","Alhandra",2
+"2011","06","Bananeiras",2
+"2011","06","Camalaú",2
+"2011","06","Curral de Cima",2
+"2011","06","Solânea",2
+"2011","07","Alhandra",2
+"2011","07","Brejo dos Santos",2
+"2011","07","Camalaú",2
+"2011","07","Sapé",2
+"2011","07","Solânea",2
+"2011","08","Alhandra",2
+"2011","08","Bananeiras",2
+"2011","08","Camalaú",2
+"2011","08","Sapé",2
+"2011","08","Solânea",2
+"2011","09","Alhandra",2
+"2011","09","Bananeiras",2
+"2011","09","Camalaú",2
+"2011","09","Sapé",2
+"2011","09","Solânea",2
+"2011","10","Alhandra",2
+"2011","10","Bananeiras",2
+"2011","10","Camalaú",2
+"2011","10","Sapé",2
+"2011","10","Solânea",2
+"2011","11","Alhandra",2
+"2011","11","Bananeiras",2
+"2011","11","Caaporã",2
+"2011","11","Camalaú",2
+"2011","11","Sapé",2
+"2011","11","Solânea",2
+"2011","12","Bananeiras",2
+"2011","12","Sapé",2
+"2011","12","Solânea",2
+"2011","01","Aroeiras",1
+"2011","01","Brejo dos Santos",1
+"2011","01","Catingueira",1
+"2011","01","Curral de Cima",1
+"2011","01","Logradouro",1
+"2011","01","Mãe d'Água",1
+"2011","01","Manaíra",1
+"2011","01","Riacho dos Cavalos",1
+"2011","01","Uiraúna",1
+"2011","02","Aroeiras",1
+"2011","02","Brejo dos Santos",1
+"2011","02","Catingueira",1
+"2011","02","Curral de Cima",1
+"2011","02","Mãe d'Água",1
+"2011","02","Manaíra",1
+"2011","02","Riacho dos Cavalos",1
+"2011","02","Uiraúna",1
+"2011","03","Brejo dos Santos",1
+"2011","03","Catingueira",1
+"2011","03","Mãe d'Água",1
+"2011","03","Manaíra",1
+"2011","03","Riacho dos Cavalos",1
+"2011","03","Uiraúna",1
+"2011","04","Aroeiras",1
+"2011","04","Brejo dos Santos",1
+"2011","04","Catingueira",1
+"2011","04","Mãe d'Água",1
+"2011","04","Manaíra",1
+"2011","04","Riacho dos Cavalos",1
+"2011","04","Uiraúna",1
+"2011","05","Aroeiras",1
+"2011","05","Brejo dos Santos",1
+"2011","05","Catingueira",1
+"2011","05","Mãe d'Água",1
+"2011","05","Manaíra",1
+"2011","05","Riacho dos Cavalos",1
+"2011","05","Uiraúna",1
+"2011","06","Aroeiras",1
+"2011","06","Brejo dos Santos",1
+"2011","06","Catingueira",1
+"2011","06","Mãe d'Água",1
+"2011","06","Manaíra",1
+"2011","06","Riacho dos Cavalos",1
+"2011","06","Uiraúna",1
+"2011","07","Aroeiras",1
+"2011","07","Catingueira",1
+"2011","07","Mãe d'Água",1
+"2011","07","Manaíra",1
+"2011","07","Riacho dos Cavalos",1
+"2011","07","Uiraúna",1
+"2011","08","Aroeiras",1
+"2011","08","Brejo dos Santos",1
+"2011","08","Catingueira",1
+"2011","08","Mãe d'Água",1
+"2011","08","Manaíra",1
+"2011","08","Riacho dos Cavalos",1
+"2011","08","Uiraúna",1
+"2011","09","Aroeiras",1
+"2011","09","Brejo dos Santos",1
+"2011","09","Catingueira",1
+"2011","09","Mãe d'Água",1
+"2011","09","Manaíra",1
+"2011","09","Riacho dos Cavalos",1
+"2011","09","Uiraúna",1
+"2011","10","Aroeiras",1
+"2011","10","Brejo dos Santos",1
+"2011","10","Catingueira",1
+"2011","10","Mãe d'Água",1
+"2011","10","Manaíra",1
+"2011","10","Riacho dos Cavalos",1
+"2011","10","Uiraúna",1
+"2011","11","Aroeiras",1
+"2011","11","Brejo dos Santos",1
+"2011","11","Catingueira",1
+"2011","11","Mãe d'Água",1
+"2011","11","Manaíra",1
+"2011","11","Riacho dos Cavalos",1
+"2011","11","Uiraúna",1
+"2011","12","Aroeiras",1
+"2011","12","Brejo dos Santos",1
+"2011","12","Catingueira",1
+"2011","12","Mãe d'Água",1
+"2011","12","Manaíra",1
+"2011","12","Riacho dos Cavalos",1
+"2011","12","Sousa",1
+"2011","12","Uiraúna",1
+"2012","12","Campina Grande",177
+"2012","06","Campina Grande",159
+"2012","07","Campina Grande",158
+"2012","08","Campina Grande",157
+"2012","10","Campina Grande",157
+"2012","05","Campina Grande",156
+"2012","09","Campina Grande",156
+"2012","04","Campina Grande",154
+"2012","11","Campina Grande",154
+"2012","03","Campina Grande",151
+"2012","02","Campina Grande",149
+"2012","01","Campina Grande",147
+"2012","11","João Pessoa",94
+"2012","12","João Pessoa",94
+"2012","01","João Pessoa",93
+"2012","02","João Pessoa",93
+"2012","03","João Pessoa",93
+"2012","04","João Pessoa",93
+"2012","05","João Pessoa",93
+"2012","06","João Pessoa",93
+"2012","07","João Pessoa",93
+"2012","08","João Pessoa",93
+"2012","09","João Pessoa",93
+"2012","10","João Pessoa",93
+"2012","08","Sousa",52
+"2012","12","Sousa",52
+"2012","01","Sousa",51
+"2012","02","Sousa",51
+"2012","03","Sousa",51
+"2012","04","Sousa",51
+"2012","05","Sousa",51
+"2012","06","Sousa",51
+"2012","07","Sousa",51
+"2012","09","Sousa",51
+"2012","10","Sousa",51
+"2012","11","Sousa",51
+"2012","12","Santa Rita",39
+"2012","04","Santa Rita",37
+"2012","05","Santa Rita",37
+"2012","06","Santa Rita",37
+"2012","07","Santa Rita",37
+"2012","08","Santa Rita",37
+"2012","09","Santa Rita",37
+"2012","10","Santa Rita",37
+"2012","11","Santa Rita",37
+"2012","01","Santa Rita",33
+"2012","02","Santa Rita",33
+"2012","03","Santa Rita",33
+"2012","08","Bayeux",14
+"2012","09","Bayeux",14
+"2012","10","Bayeux",14
+"2012","07","Bayeux",13
+"2012","11","Bayeux",13
+"2012","12","Bayeux",13
+"2012","01","Guarabira",12
+"2012","02","Guarabira",12
+"2012","03","Guarabira",12
+"2012","04","Bayeux",12
+"2012","04","Guarabira",12
+"2012","04","Patos",12
+"2012","05","Bayeux",12
+"2012","05","Guarabira",12
+"2012","05","Patos",12
+"2012","06","Bayeux",12
+"2012","06","Guarabira",12
+"2012","06","Patos",12
+"2012","07","Guarabira",12
+"2012","07","Patos",12
+"2012","08","Guarabira",12
+"2012","08","Patos",12
+"2012","09","Guarabira",12
+"2012","09","Patos",12
+"2012","10","Guarabira",12
+"2012","10","Patos",12
+"2012","11","Guarabira",12
+"2012","11","Patos",12
+"2012","12","Guarabira",12
+"2012","02","Bayeux",11
+"2012","03","Bayeux",11
+"2012","01","Bayeux",10
+"2012","03","Patos",10
+"2012","12","Patos",9
+"2012","01","Curral de Cima",7
+"2012","02","Curral de Cima",7
+"2012","03","Curral de Cima",7
+"2012","04","Curral de Cima",7
+"2012","05","Curral de Cima",7
+"2012","06","Curral de Cima",7
+"2012","07","Curral de Cima",7
+"2012","08","Curral de Cima",7
+"2012","09","Curral de Cima",7
+"2012","10","Curral de Cima",7
+"2012","01","Patos",6
+"2012","02","Patos",6
+"2012","01","Cuité",4
+"2012","01","Soledade",4
+"2012","02","Cuité",4
+"2012","02","Soledade",4
+"2012","03","Cuité",4
+"2012","03","Soledade",4
+"2012","04","Cuité",4
+"2012","04","Soledade",4
+"2012","05","Cuité",4
+"2012","05","Soledade",4
+"2012","06","Cuité",4
+"2012","06","Soledade",4
+"2012","07","Cuité",4
+"2012","07","Sapé",4
+"2012","07","Soledade",4
+"2012","08","Cuité",4
+"2012","08","Sapé",4
+"2012","08","Soledade",4
+"2012","09","Cuité",4
+"2012","09","Sapé",4
+"2012","09","Soledade",4
+"2012","10","Cuité",4
+"2012","10","Sapé",4
+"2012","10","Soledade",4
+"2012","11","Cuité",4
+"2012","11","Sapé",4
+"2012","11","Soledade",4
+"2012","12","Caaporã",4
+"2012","12","Cuité",4
+"2012","12","Sapé",4
+"2012","12","Soledade",4
+"2012","01","Caaporã",3
+"2012","01","Cuité de Mamanguape",3
+"2012","02","Caaporã",3
+"2012","02","Cuité de Mamanguape",3
+"2012","03","Caaporã",3
+"2012","03","Cuité de Mamanguape",3
+"2012","04","Caaporã",3
+"2012","04","Cuité de Mamanguape",3
+"2012","04","Sapé",3
+"2012","05","Caaporã",3
+"2012","05","Cuité de Mamanguape",3
+"2012","05","Sapé",3
+"2012","06","Caaporã",3
+"2012","06","Cuité de Mamanguape",3
+"2012","06","Sapé",3
+"2012","07","Caaporã",3
+"2012","07","Cuité de Mamanguape",3
+"2012","08","Caaporã",3
+"2012","08","Cuité de Mamanguape",3
+"2012","09","Caaporã",3
+"2012","09","Cuité de Mamanguape",3
+"2012","10","Caaporã",3
+"2012","11","Caaporã",3
+"2012","12","Camalaú",3
+"2012","12","Cuité de Mamanguape",3
+"2012","01","Alhandra",2
+"2012","01","Bananeiras",2
+"2012","01","Camalaú",2
+"2012","01","Sapé",2
+"2012","01","Solânea",2
+"2012","02","Alhandra",2
+"2012","02","Bananeiras",2
+"2012","02","Camalaú",2
+"2012","02","Sapé",2
+"2012","02","Solânea",2
+"2012","03","Alhandra",2
+"2012","03","Bananeiras",2
+"2012","03","Camalaú",2
+"2012","03","Sapé",2
+"2012","03","Solânea",2
+"2012","04","Alhandra",2
+"2012","04","Bananeiras",2
+"2012","04","Camalaú",2
+"2012","04","Solânea",2
+"2012","05","Alhandra",2
+"2012","05","Bananeiras",2
+"2012","05","Camalaú",2
+"2012","05","Solânea",2
+"2012","06","Alhandra",2
+"2012","06","Bananeiras",2
+"2012","06","Camalaú",2
+"2012","06","Solânea",2
+"2012","07","Alhandra",2
+"2012","07","Aroeiras",2
+"2012","07","Bananeiras",2
+"2012","07","Camalaú",2
+"2012","07","Solânea",2
+"2012","08","Alhandra",2
+"2012","08","Aroeiras",2
+"2012","08","Bananeiras",2
+"2012","08","Camalaú",2
+"2012","08","Solânea",2
+"2012","09","Alhandra",2
+"2012","09","Aroeiras",2
+"2012","09","Bananeiras",2
+"2012","09","Camalaú",2
+"2012","09","Solânea",2
+"2012","10","Aroeiras",2
+"2012","10","Bananeiras",2
+"2012","10","Camalaú",2
+"2012","10","Solânea",2
+"2012","11","Aroeiras",2
+"2012","11","Bananeiras",2
+"2012","11","Camalaú",2
+"2012","11","Solânea",2
+"2012","12","Aroeiras",2
+"2012","12","Bananeiras",2
+"2012","12","Solânea",2
+"2012","01","Aroeiras",1
+"2012","01","Brejo dos Santos",1
+"2012","01","Catingueira",1
+"2012","01","Mãe d'Água",1
+"2012","01","Manaíra",1
+"2012","01","Riacho dos Cavalos",1
+"2012","01","Uiraúna",1
+"2012","02","Aroeiras",1
+"2012","02","Brejo dos Santos",1
+"2012","02","Catingueira",1
+"2012","02","Mãe d'Água",1
+"2012","02","Manaíra",1
+"2012","02","Riacho dos Cavalos",1
+"2012","02","Sumé",1
+"2012","02","Uiraúna",1
+"2012","03","Aroeiras",1
+"2012","03","Brejo dos Santos",1
+"2012","03","Catingueira",1
+"2012","03","Mãe d'Água",1
+"2012","03","Manaíra",1
+"2012","03","Riacho dos Cavalos",1
+"2012","03","Sumé",1
+"2012","03","Uiraúna",1
+"2012","04","Aroeiras",1
+"2012","04","Brejo dos Santos",1
+"2012","04","Catingueira",1
+"2012","04","Mãe d'Água",1
+"2012","04","Manaíra",1
+"2012","04","Riacho dos Cavalos",1
+"2012","04","Sumé",1
+"2012","04","Uiraúna",1
+"2012","05","Aroeiras",1
+"2012","05","Brejo dos Santos",1
+"2012","05","Catingueira",1
+"2012","05","Mãe d'Água",1
+"2012","05","Manaíra",1
+"2012","05","Riacho dos Cavalos",1
+"2012","05","Sumé",1
+"2012","05","Uiraúna",1
+"2012","06","Aroeiras",1
+"2012","06","Brejo dos Santos",1
+"2012","06","Catingueira",1
+"2012","06","Mãe d'Água",1
+"2012","06","Manaíra",1
+"2012","06","Riacho dos Cavalos",1
+"2012","06","Sumé",1
+"2012","06","Uiraúna",1
+"2012","07","Brejo dos Santos",1
+"2012","07","Catingueira",1
+"2012","07","Mãe d'Água",1
+"2012","07","Manaíra",1
+"2012","07","Riacho dos Cavalos",1
+"2012","07","Sumé",1
+"2012","07","Uiraúna",1
+"2012","08","Brejo dos Santos",1
+"2012","08","Catingueira",1
+"2012","08","Mãe d'Água",1
+"2012","08","Manaíra",1
+"2012","08","Riacho dos Cavalos",1
+"2012","08","Sumé",1
+"2012","08","Uiraúna",1
+"2012","09","Brejo dos Santos",1
+"2012","09","Catingueira",1
+"2012","09","Mãe d'Água",1
+"2012","09","Manaíra",1
+"2012","09","Riacho dos Cavalos",1
+"2012","09","Sumé",1
+"2012","09","Uiraúna",1
+"2012","10","Alhandra",1
+"2012","10","Brejo dos Santos",1
+"2012","10","Catingueira",1
+"2012","10","Cuité de Mamanguape",1
+"2012","10","Mãe d'Água",1
+"2012","10","Manaíra",1
+"2012","10","Riacho dos Cavalos",1
+"2012","10","Sumé",1
+"2012","10","Uiraúna",1
+"2012","11","Brejo dos Santos",1
+"2012","11","Catingueira",1
+"2012","11","Cuité de Mamanguape",1
+"2012","11","Mãe d'Água",1
+"2012","11","Manaíra",1
+"2012","11","Riacho dos Cavalos",1
+"2012","11","Sumé",1
+"2012","11","Uiraúna",1
+"2012","12","Brejo dos Santos",1
+"2012","12","Catingueira",1
+"2012","12","Mãe d'Água",1
+"2012","12","Manaíra",1
+"2012","12","Riacho dos Cavalos",1
+"2012","12","Sumé",1
+"2012","12","Uiraúna",1
+"2013","12","Campina Grande",205
+"2013","04","Campina Grande",186
+"2013","05","Campina Grande",186
+"2013","06","Campina Grande",185
+"2013","03","Campina Grande",181
+"2013","02","Campina Grande",178
+"2013","01","Campina Grande",174
+"2013","07","Campina Grande",167
+"2013","08","Campina Grande",164
+"2013","09","Campina Grande",159
+"2013","10","Campina Grande",159
+"2013","11","Campina Grande",148
+"2013","02","João Pessoa",121
+"2013","03","João Pessoa",121
+"2013","04","João Pessoa",121
+"2013","05","João Pessoa",121
+"2013","06","João Pessoa",121
+"2013","07","João Pessoa",121
+"2013","08","João Pessoa",121
+"2013","01","João Pessoa",120
+"2013","09","João Pessoa",114
+"2013","10","João Pessoa",85
+"2013","11","João Pessoa",85
+"2013","12","João Pessoa",83
+"2013","12","Sousa",58
+"2013","02","Sousa",53
+"2013","03","Sousa",53
+"2013","04","Sousa",53
+"2013","05","Sousa",53
+"2013","06","Sousa",53
+"2013","07","Sousa",53
+"2013","08","Sousa",53
+"2013","09","Sousa",53
+"2013","10","Sousa",53
+"2013","11","Sousa",53
+"2013","01","Sousa",50
+"2013","06","Santa Rita",18
+"2013","03","Santa Rita",17
+"2013","01","Santa Rita",16
+"2013","02","Santa Rita",16
+"2013","04","Santa Rita",16
+"2013","05","Santa Rita",16
+"2013","07","Santa Rita",16
+"2013","08","Santa Rita",16
+"2013","09","Santa Rita",16
+"2013","10","Santa Rita",16
+"2013","11","Santa Rita",16
+"2013","12","Santa Rita",16
+"2013","03","Patos",7
+"2013","09","Patos",7
+"2013","01","Caaporã",6
+"2013","01","Patos",6
+"2013","02","Caaporã",6
+"2013","02","Patos",6
+"2013","04","Patos",6
+"2013","05","Patos",6
+"2013","06","Patos",6
+"2013","07","Patos",6
+"2013","08","Patos",6
+"2013","10","Patos",6
+"2013","11","Patos",6
+"2013","12","Patos",6
+"2013","03","Caaporã",5
+"2013","04","Caaporã",5
+"2013","05","Caaporã",5
+"2013","06","Caaporã",5
+"2013","01","Cuité",4
+"2013","01","Sapé",4
+"2013","02","Cuité",4
+"2013","02","Sapé",4
+"2013","03","Cuité",4
+"2013","03","Sapé",4
+"2013","04","Cuité",4
+"2013","04","Sapé",4
+"2013","05","Cuité",4
+"2013","05","Sapé",4
+"2013","06","Cuité",4
+"2013","06","Sapé",4
+"2013","07","Cuité",4
+"2013","07","Sapé",4
+"2013","08","Cuité",4
+"2013","08","Sapé",4
+"2013","09","Caaporã",4
+"2013","09","Cuité",4
+"2013","09","Sapé",4
+"2013","10","Cuité",4
+"2013","10","Sapé",4
+"2013","11","Cuité",4
+"2013","11","Sapé",4
+"2013","12","Cuité",4
+"2013","12","Sapé",4
+"2013","05","Bayeux",3
+"2013","06","Bayeux",3
+"2013","07","Bayeux",3
+"2013","10","Soledade",3
+"2013","11","Soledade",3
+"2013","12","Soledade",3
+"2013","01","Aroeiras",2
+"2013","01","Bananeiras",2
+"2013","01","Cuité de Mamanguape",2
+"2013","01","Riacho dos Cavalos",2
+"2013","01","Solânea",2
+"2013","02","Aroeiras",2
+"2013","02","Bananeiras",2
+"2013","02","Bayeux",2
+"2013","02","Camalaú",2
+"2013","02","Cuité de Mamanguape",2
+"2013","02","Riacho dos Cavalos",2
+"2013","02","Solânea",2
+"2013","02","Soledade",2
+"2013","03","Aroeiras",2
+"2013","03","Bananeiras",2
+"2013","03","Bayeux",2
+"2013","03","Camalaú",2
+"2013","03","Cuité de Mamanguape",2
+"2013","03","Riacho dos Cavalos",2
+"2013","03","Solânea",2
+"2013","03","Soledade",2
+"2013","04","Aroeiras",2
+"2013","04","Bananeiras",2
+"2013","04","Bayeux",2
+"2013","04","Camalaú",2
+"2013","04","Cuité de Mamanguape",2
+"2013","04","Riacho dos Cavalos",2
+"2013","04","Solânea",2
+"2013","04","Soledade",2
+"2013","05","Aroeiras",2
+"2013","05","Bananeiras",2
+"2013","05","Camalaú",2
+"2013","05","Cuité de Mamanguape",2
+"2013","05","Riacho dos Cavalos",2
+"2013","05","Solânea",2
+"2013","05","Soledade",2
+"2013","06","Aroeiras",2
+"2013","06","Bananeiras",2
+"2013","06","Camalaú",2
+"2013","06","Riacho dos Cavalos",2
+"2013","06","Solânea",2
+"2013","06","Soledade",2
+"2013","07","Aroeiras",2
+"2013","07","Bananeiras",2
+"2013","07","Camalaú",2
+"2013","07","Riacho dos Cavalos",2
+"2013","07","Solânea",2
+"2013","07","Soledade",2
+"2013","08","Aroeiras",2
+"2013","08","Bananeiras",2
+"2013","08","Bayeux",2
+"2013","08","Camalaú",2
+"2013","08","Riacho dos Cavalos",2
+"2013","08","Solânea",2
+"2013","08","Soledade",2
+"2013","09","Aroeiras",2
+"2013","09","Bananeiras",2
+"2013","09","Bayeux",2
+"2013","09","Camalaú",2
+"2013","09","Riacho dos Cavalos",2
+"2013","09","Solânea",2
+"2013","09","Soledade",2
+"2013","10","Aroeiras",2
+"2013","10","Bananeiras",2
+"2013","10","Bayeux",2
+"2013","10","Camalaú",2
+"2013","10","Riacho dos Cavalos",2
+"2013","10","Solânea",2
+"2013","11","Aroeiras",2
+"2013","11","Bananeiras",2
+"2013","11","Bayeux",2
+"2013","11","Camalaú",2
+"2013","11","Riacho dos Cavalos",2
+"2013","11","Solânea",2
+"2013","12","Aroeiras",2
+"2013","12","Bananeiras",2
+"2013","12","Bayeux",2
+"2013","12","Camalaú",2
+"2013","12","Riacho dos Cavalos",2
+"2013","12","Solânea",2
+"2013","01","Bayeux",1
+"2013","01","Brejo dos Santos",1
+"2013","01","Camalaú",1
+"2013","01","Catingueira",1
+"2013","01","Logradouro",1
+"2013","01","Mãe d'Água",1
+"2013","01","Manaíra",1
+"2013","01","São João do Tigre",1
+"2013","01","Soledade",1
+"2013","01","Sumé",1
+"2013","02","Brejo dos Santos",1
+"2013","02","Catingueira",1
+"2013","02","Logradouro",1
+"2013","02","Mãe d'Água",1
+"2013","02","Manaíra",1
+"2013","02","São João do Tigre",1
+"2013","02","Sumé",1
+"2013","03","Brejo dos Santos",1
+"2013","03","Catingueira",1
+"2013","03","Logradouro",1
+"2013","03","Mãe d'Água",1
+"2013","03","Manaíra",1
+"2013","03","São João do Tigre",1
+"2013","03","Sumé",1
+"2013","04","Brejo dos Santos",1
+"2013","04","Catingueira",1
+"2013","04","Logradouro",1
+"2013","04","Mãe d'Água",1
+"2013","04","Manaíra",1
+"2013","04","São João do Tigre",1
+"2013","04","Sumé",1
+"2013","05","Brejo dos Santos",1
+"2013","05","Catingueira",1
+"2013","05","Logradouro",1
+"2013","05","Mãe d'Água",1
+"2013","05","Manaíra",1
+"2013","05","São João do Tigre",1
+"2013","05","Sumé",1
+"2013","06","Brejo dos Santos",1
+"2013","06","Catingueira",1
+"2013","06","Cuité de Mamanguape",1
+"2013","06","Logradouro",1
+"2013","06","Mãe d'Água",1
+"2013","06","Manaíra",1
+"2013","06","São João do Tigre",1
+"2013","06","Sumé",1
+"2013","07","Brejo dos Santos",1
+"2013","07","Catingueira",1
+"2013","07","Cuité de Mamanguape",1
+"2013","07","Logradouro",1
+"2013","07","Mãe d'Água",1
+"2013","07","Manaíra",1
+"2013","07","São João do Tigre",1
+"2013","07","Sumé",1
+"2013","08","Brejo dos Santos",1
+"2013","08","Catingueira",1
+"2013","08","Cuité de Mamanguape",1
+"2013","08","Mãe d'Água",1
+"2013","08","Manaíra",1
+"2013","08","São João do Tigre",1
+"2013","08","Sumé",1
+"2013","09","Brejo dos Santos",1
+"2013","09","Catingueira",1
+"2013","09","Cuité de Mamanguape",1
+"2013","09","Mãe d'Água",1
+"2013","09","Manaíra",1
+"2013","09","São João do Tigre",1
+"2013","09","Sumé",1
+"2013","10","Brejo dos Santos",1
+"2013","10","Catingueira",1
+"2013","10","Cuité de Mamanguape",1
+"2013","10","Mãe d'Água",1
+"2013","10","Manaíra",1
+"2013","10","São João do Tigre",1
+"2013","10","Sumé",1
+"2013","11","Brejo dos Santos",1
+"2013","11","Catingueira",1
+"2013","11","Cuité de Mamanguape",1
+"2013","11","Mãe d'Água",1
+"2013","11","Manaíra",1
+"2013","11","São João do Tigre",1
+"2013","11","Sumé",1
+"2013","12","Brejo dos Santos",1
+"2013","12","Caaporã",1
+"2013","12","Catingueira",1
+"2013","12","Cuité de Mamanguape",1
+"2013","12","Logradouro",1
+"2013","12","Mãe d'Água",1
+"2013","12","Manaíra",1
+"2013","12","São João do Tigre",1
+"2013","12","Sumé",1
+"2014","12","Campina Grande",247
+"2014","04","Campina Grande",198
+"2014","05","Campina Grande",198
+"2014","06","Campina Grande",197
+"2014","11","Campina Grande",197
+"2014","03","Campina Grande",196
+"2014","09","Campina Grande",195
+"2014","10","Campina Grande",195
+"2014","07","Campina Grande",194
+"2014","08","Campina Grande",194
+"2014","02","Campina Grande",186
+"2014","01","Campina Grande",153
+"2014","01","João Pessoa",121
+"2014","02","João Pessoa",121
+"2014","03","João Pessoa",121
+"2014","04","João Pessoa",121
+"2014","07","João Pessoa",121
+"2014","06","João Pessoa",120
+"2014","08","João Pessoa",120
+"2014","09","João Pessoa",120
+"2014","11","João Pessoa",120
+"2014","12","João Pessoa",120
+"2014","10","João Pessoa",119
+"2014","05","João Pessoa",105
+"2014","12","Sousa",75
+"2014","01","Sousa",54
+"2014","02","Sousa",54
+"2014","03","Sousa",54
+"2014","07","Sousa",54
+"2014","04","Sousa",53
+"2014","05","Sousa",53
+"2014","06","Sousa",53
+"2014","08","Sousa",53
+"2014","09","Sousa",53
+"2014","10","Sousa",53
+"2014","11","Sousa",53
+"2014","12","Santa Rita",33
+"2014","11","Santa Rita",25
+"2014","09","Santa Rita",24
+"2014","10","Santa Rita",23
+"2014","08","Santa Rita",22
+"2014","02","Patos",20
+"2014","03","Patos",20
+"2014","04","Patos",20
+"2014","06","Patos",20
+"2014","05","Patos",19
+"2014","06","Santa Rita",18
+"2014","02","Santa Rita",17
+"2014","03","Santa Rita",17
+"2014","04","Santa Rita",17
+"2014","05","Santa Rita",17
+"2014","07","Santa Rita",17
+"2014","01","Santa Rita",16
+"2014","01","Guarabira",12
+"2014","02","Guarabira",12
+"2014","03","Guarabira",12
+"2014","04","Guarabira",12
+"2014","05","Guarabira",12
+"2014","06","Guarabira",12
+"2014","07","Guarabira",12
+"2014","08","Guarabira",12
+"2014","09","Guarabira",12
+"2014","10","Guarabira",12
+"2014","11","Guarabira",12
+"2014","12","Guarabira",12
+"2014","01","Patos",7
+"2014","07","Patos",5
+"2014","08","Patos",5
+"2014","09","Patos",5
+"2014","10","Patos",5
+"2014","11","Patos",5
+"2014","12","Patos",5
+"2014","01","Cuité",4
+"2014","01","Sapé",4
+"2014","02","Cuité",4
+"2014","02","Sapé",4
+"2014","03","Cuité",4
+"2014","03","Sapé",4
+"2014","04","Cuité",4
+"2014","04","Sapé",4
+"2014","05","Cuité",4
+"2014","05","Sapé",4
+"2014","06","Cuité",4
+"2014","06","Sapé",4
+"2014","07","Cuité",4
+"2014","07","Sapé",4
+"2014","08","Cuité",4
+"2014","08","Sapé",4
+"2014","09","Cuité",4
+"2014","09","Sapé",4
+"2014","10","Cuité",4
+"2014","10","Sapé",4
+"2014","11","Cuité",4
+"2014","11","Sapé",4
+"2014","12","Cuité",4
+"2014","12","Sapé",4
+"2014","01","Soledade",3
+"2014","02","Soledade",3
+"2014","03","Soledade",3
+"2014","04","Soledade",3
+"2014","05","Soledade",3
+"2014","06","Soledade",3
+"2014","07","Soledade",3
+"2014","08","Soledade",3
+"2014","09","Soledade",3
+"2014","10","Soledade",3
+"2014","11","Soledade",3
+"2014","01","Aroeiras",2
+"2014","01","Bananeiras",2
+"2014","01","Bayeux",2
+"2014","01","Camalaú",2
+"2014","01","Cuité de Mamanguape",2
+"2014","01","Riacho dos Cavalos",2
+"2014","01","Solânea",2
+"2014","02","Aroeiras",2
+"2014","02","Bananeiras",2
+"2014","02","Bayeux",2
+"2014","02","Camalaú",2
+"2014","02","Cuité de Mamanguape",2
+"2014","02","Riacho dos Cavalos",2
+"2014","02","Solânea",2
+"2014","03","Aroeiras",2
+"2014","03","Bananeiras",2
+"2014","03","Bayeux",2
+"2014","03","Camalaú",2
+"2014","03","Cuité de Mamanguape",2
+"2014","03","Riacho dos Cavalos",2
+"2014","03","Solânea",2
+"2014","04","Aroeiras",2
+"2014","04","Bananeiras",2
+"2014","04","Bayeux",2
+"2014","04","Camalaú",2
+"2014","04","Cuité de Mamanguape",2
+"2014","04","Riacho dos Cavalos",2
+"2014","04","Solânea",2
+"2014","05","Aroeiras",2
+"2014","05","Bananeiras",2
+"2014","05","Bayeux",2
+"2014","05","Camalaú",2
+"2014","05","Cuité de Mamanguape",2
+"2014","05","Riacho dos Cavalos",2
+"2014","05","Solânea",2
+"2014","06","Aroeiras",2
+"2014","06","Bananeiras",2
+"2014","06","Bayeux",2
+"2014","06","Camalaú",2
+"2014","06","Cuité de Mamanguape",2
+"2014","06","Riacho dos Cavalos",2
+"2014","06","Solânea",2
+"2014","07","Aroeiras",2
+"2014","07","Bananeiras",2
+"2014","07","Bayeux",2
+"2014","07","Cuité de Mamanguape",2
+"2014","07","Riacho dos Cavalos",2
+"2014","07","Solânea",2
+"2014","08","Aroeiras",2
+"2014","08","Bananeiras",2
+"2014","08","Bayeux",2
+"2014","08","Camalaú",2
+"2014","08","Cuité de Mamanguape",2
+"2014","08","Riacho dos Cavalos",2
+"2014","08","Solânea",2
+"2014","09","Aroeiras",2
+"2014","09","Bananeiras",2
+"2014","09","Bayeux",2
+"2014","09","Camalaú",2
+"2014","09","Cuité de Mamanguape",2
+"2014","09","Riacho dos Cavalos",2
+"2014","09","Solânea",2
+"2014","10","Aroeiras",2
+"2014","10","Bananeiras",2
+"2014","10","Bayeux",2
+"2014","10","Camalaú",2
+"2014","10","Cuité de Mamanguape",2
+"2014","10","Riacho dos Cavalos",2
+"2014","10","Solânea",2
+"2014","11","Aroeiras",2
+"2014","11","Bananeiras",2
+"2014","11","Camalaú",2
+"2014","11","Riacho dos Cavalos",2
+"2014","11","Solânea",2
+"2014","12","Aroeiras",2
+"2014","12","Bananeiras",2
+"2014","12","Bayeux",2
+"2014","12","Camalaú",2
+"2014","12","Riacho dos Cavalos",2
+"2014","12","Solânea",2
+"2014","12","Soledade",2
+"2014","01","Brejo dos Santos",1
+"2014","01","Catingueira",1
+"2014","01","Mãe d'Água",1
+"2014","01","Manaíra",1
+"2014","01","São João do Tigre",1
+"2014","01","Sumé",1
+"2014","02","Brejo dos Santos",1
+"2014","02","Catingueira",1
+"2014","02","Mãe d'Água",1
+"2014","02","Manaíra",1
+"2014","02","São João do Tigre",1
+"2014","03","Brejo dos Santos",1
+"2014","03","Catingueira",1
+"2014","03","Mãe d'Água",1
+"2014","03","Manaíra",1
+"2014","03","São João do Tigre",1
+"2014","04","Brejo dos Santos",1
+"2014","04","Catingueira",1
+"2014","04","Mãe d'Água",1
+"2014","04","Manaíra",1
+"2014","04","São João do Tigre",1
+"2014","05","Brejo dos Santos",1
+"2014","05","Catingueira",1
+"2014","05","Mãe d'Água",1
+"2014","05","Manaíra",1
+"2014","05","São João do Tigre",1
+"2014","06","Brejo dos Santos",1
+"2014","06","Catingueira",1
+"2014","06","Mãe d'Água",1
+"2014","06","Manaíra",1
+"2014","06","São João do Tigre",1
+"2014","07","Brejo dos Santos",1
+"2014","07","Camalaú",1
+"2014","07","Catingueira",1
+"2014","07","Mãe d'Água",1
+"2014","07","Manaíra",1
+"2014","07","São João do Tigre",1
+"2014","08","Brejo dos Santos",1
+"2014","08","Catingueira",1
+"2014","08","Mãe d'Água",1
+"2014","08","Manaíra",1
+"2014","08","São João do Tigre",1
+"2014","09","Brejo dos Santos",1
+"2014","09","Catingueira",1
+"2014","09","Mãe d'Água",1
+"2014","09","Manaíra",1
+"2014","09","São João do Tigre",1
+"2014","10","Brejo dos Santos",1
+"2014","10","Catingueira",1
+"2014","10","Mãe d'Água",1
+"2014","10","Manaíra",1
+"2014","10","São João do Tigre",1
+"2014","11","Bayeux",1
+"2014","11","Brejo dos Santos",1
+"2014","11","Catingueira",1
+"2014","11","Cuité de Mamanguape",1
+"2014","11","Mãe d'Água",1
+"2014","11","Manaíra",1
+"2014","11","São João do Tigre",1
+"2014","12","Brejo dos Santos",1
+"2014","12","Catingueira",1
+"2014","12","Cuité de Mamanguape",1
+"2014","12","Mãe d'Água",1
+"2014","12","Manaíra",1
+"2015","12","Campina Grande",198
+"2015","01","Campina Grande",192
+"2015","02","Campina Grande",164
+"2015","03","Campina Grande",162
+"2015","04","Campina Grande",158
+"2015","05","Campina Grande",158
+"2015","06","Campina Grande",156
+"2015","07","Campina Grande",153
+"2015","08","Campina Grande",153
+"2015","09","Campina Grande",153
+"2015","10","Campina Grande",152
+"2015","11","Campina Grande",152
+"2015","01","João Pessoa",120
+"2015","02","João Pessoa",120
+"2015","03","João Pessoa",120
+"2015","04","João Pessoa",120
+"2015","05","João Pessoa",120
+"2015","06","João Pessoa",120
+"2015","07","João Pessoa",120
+"2015","08","João Pessoa",120
+"2015","09","João Pessoa",120
+"2015","10","João Pessoa",120
+"2015","11","João Pessoa",120
+"2015","12","João Pessoa",120
+"2015","12","Santa Rita",39
+"2015","06","Sousa",38
+"2015","03","Santa Rita",37
+"2015","04","Santa Rita",37
+"2015","05","Santa Rita",37
+"2015","06","Santa Rita",37
+"2015","07","Santa Rita",37
+"2015","08","Santa Rita",37
+"2015","09","Santa Rita",37
+"2015","10","Santa Rita",37
+"2015","11","Santa Rita",37
+"2015","02","Santa Rita",36
+"2015","01","Sousa",30
+"2015","02","Sousa",30
+"2015","03","Sousa",30
+"2015","04","Sousa",30
+"2015","05","Sousa",30
+"2015","07","Sousa",30
+"2015","08","Sousa",30
+"2015","09","Sousa",30
+"2015","10","Sousa",30
+"2015","11","Sousa",30
+"2015","12","Sousa",30
+"2015","01","Santa Rita",24
+"2015","11","Patos",13
+"2015","12","Patos",13
+"2015","01","Guarabira",12
+"2015","02","Guarabira",12
+"2015","03","Guarabira",12
+"2015","04","Guarabira",12
+"2015","05","Guarabira",12
+"2015","06","Guarabira",12
+"2015","06","Patos",12
+"2015","07","Guarabira",12
+"2015","08","Guarabira",12
+"2015","09","Guarabira",12
+"2015","09","Patos",12
+"2015","10","Guarabira",12
+"2015","10","Patos",12
+"2015","11","Guarabira",12
+"2015","12","Guarabira",12
+"2015","04","Patos",11
+"2015","05","Patos",11
+"2015","07","Patos",11
+"2015","08","Patos",11
+"2015","03","Patos",10
+"2015","02","Patos",7
+"2015","01","Patos",6
+"2015","01","Cuité",4
+"2015","01","Sapé",4
+"2015","02","Cuité",4
+"2015","02","Sapé",4
+"2015","03","Cuité",4
+"2015","03","Sapé",4
+"2015","04","Cuité",4
+"2015","04","Sapé",4
+"2015","05","Cuité",4
+"2015","06","Cuité",4
+"2015","06","Sapé",4
+"2015","07","Cuité",4
+"2015","08","Cuité",4
+"2015","08","Soledade",4
+"2015","09","Cuité",4
+"2015","09","Soledade",4
+"2015","10","Cuité",4
+"2015","10","Soledade",4
+"2015","11","Cuité",4
+"2015","11","Soledade",4
+"2015","12","Cuité",4
+"2015","12","Sapé",4
+"2015","12","Soledade",4
+"2015","01","Soledade",3
+"2015","02","Soledade",3
+"2015","03","Cuité de Mamanguape",3
+"2015","03","Soledade",3
+"2015","04","Soledade",3
+"2015","05","Sapé",3
+"2015","05","Soledade",3
+"2015","06","Soledade",3
+"2015","07","Sapé",3
+"2015","07","Soledade",3
+"2015","08","Sapé",3
+"2015","09","Sapé",3
+"2015","10","Sapé",3
+"2015","11","Sapé",3
+"2015","01","Bananeiras",2
+"2015","01","Camalaú",2
+"2015","01","Cuité de Mamanguape",2
+"2015","01","Duas Estradas",2
+"2015","01","Solânea",2
+"2015","02","Bananeiras",2
+"2015","02","Camalaú",2
+"2015","02","Cuité de Mamanguape",2
+"2015","02","Duas Estradas",2
+"2015","02","Solânea",2
+"2015","03","Bananeiras",2
+"2015","03","Camalaú",2
+"2015","03","Duas Estradas",2
+"2015","03","Solânea",2
+"2015","04","Bananeiras",2
+"2015","04","Camalaú",2
+"2015","04","Duas Estradas",2
+"2015","04","Solânea",2
+"2015","05","Bananeiras",2
+"2015","05","Camalaú",2
+"2015","05","Duas Estradas",2
+"2015","05","Solânea",2
+"2015","06","Bananeiras",2
+"2015","06","Camalaú",2
+"2015","06","Duas Estradas",2
+"2015","06","Solânea",2
+"2015","07","Bananeiras",2
+"2015","07","Camalaú",2
+"2015","07","Duas Estradas",2
+"2015","07","Solânea",2
+"2015","08","Bananeiras",2
+"2015","08","Camalaú",2
+"2015","08","Duas Estradas",2
+"2015","08","Solânea",2
+"2015","09","Bananeiras",2
+"2015","09","Camalaú",2
+"2015","09","Duas Estradas",2
+"2015","09","Solânea",2
+"2015","10","Bananeiras",2
+"2015","10","Camalaú",2
+"2015","10","Duas Estradas",2
+"2015","10","Solânea",2
+"2015","11","Bananeiras",2
+"2015","11","Camalaú",2
+"2015","11","Duas Estradas",2
+"2015","11","Solânea",2
+"2015","12","Bananeiras",2
+"2015","12","Camalaú",2
+"2015","12","Duas Estradas",2
+"2015","12","Solânea",2
+"2015","01","Aroeiras",1
+"2015","01","Brejo dos Santos",1
+"2015","01","Catingueira",1
+"2015","01","Ibiara",1
+"2015","01","Mãe d'Água",1
+"2015","01","Manaíra",1
+"2015","01","Riacho dos Cavalos",1
+"2015","01","Sumé",1
+"2015","02","Aroeiras",1
+"2015","02","Brejo dos Santos",1
+"2015","02","Catingueira",1
+"2015","02","Ibiara",1
+"2015","02","Mãe d'Água",1
+"2015","02","Manaíra",1
+"2015","02","Riacho dos Cavalos",1
+"2015","02","Sumé",1
+"2015","03","Aroeiras",1
+"2015","03","Brejo dos Santos",1
+"2015","03","Catingueira",1
+"2015","03","Ibiara",1
+"2015","03","Mãe d'Água",1
+"2015","03","Manaíra",1
+"2015","03","Riacho dos Cavalos",1
+"2015","03","Sumé",1
+"2015","04","Aroeiras",1
+"2015","04","Brejo dos Santos",1
+"2015","04","Catingueira",1
+"2015","04","Cuité de Mamanguape",1
+"2015","04","Ibiara",1
+"2015","04","Mãe d'Água",1
+"2015","04","Manaíra",1
+"2015","04","Riacho dos Cavalos",1
+"2015","04","Sumé",1
+"2015","05","Aroeiras",1
+"2015","05","Brejo dos Santos",1
+"2015","05","Catingueira",1
+"2015","05","Cuité de Mamanguape",1
+"2015","05","Ibiara",1
+"2015","05","Mãe d'Água",1
+"2015","05","Manaíra",1
+"2015","05","Riacho dos Cavalos",1
+"2015","05","Sumé",1
+"2015","06","Aroeiras",1
+"2015","06","Brejo dos Santos",1
+"2015","06","Catingueira",1
+"2015","06","Cuité de Mamanguape",1
+"2015","06","Ibiara",1
+"2015","06","Mãe d'Água",1
+"2015","06","Manaíra",1
+"2015","06","Riacho dos Cavalos",1
+"2015","06","Sumé",1
+"2015","07","Aroeiras",1
+"2015","07","Brejo dos Santos",1
+"2015","07","Catingueira",1
+"2015","07","Cuité de Mamanguape",1
+"2015","07","Ibiara",1
+"2015","07","Mãe d'Água",1
+"2015","07","Manaíra",1
+"2015","07","Riacho dos Cavalos",1
+"2015","07","Sumé",1
+"2015","08","Aroeiras",1
+"2015","08","Brejo dos Santos",1
+"2015","08","Catingueira",1
+"2015","08","Cuité de Mamanguape",1
+"2015","08","Ibiara",1
+"2015","08","Itaporanga",1
+"2015","08","Mãe d'Água",1
+"2015","08","Manaíra",1
+"2015","08","Riacho dos Cavalos",1
+"2015","08","Sumé",1
+"2015","09","Aroeiras",1
+"2015","09","Brejo dos Santos",1
+"2015","09","Catingueira",1
+"2015","09","Cuité de Mamanguape",1
+"2015","09","Ibiara",1
+"2015","09","Itaporanga",1
+"2015","09","Mãe d'Água",1
+"2015","09","Manaíra",1
+"2015","09","Riacho dos Cavalos",1
+"2015","09","Sumé",1
+"2015","10","Aroeiras",1
+"2015","10","Brejo dos Santos",1
+"2015","10","Catingueira",1
+"2015","10","Cuité de Mamanguape",1
+"2015","10","Ibiara",1
+"2015","10","Itaporanga",1
+"2015","10","Mãe d'Água",1
+"2015","10","Manaíra",1
+"2015","10","Riacho dos Cavalos",1
+"2015","10","Sumé",1
+"2015","11","Aroeiras",1
+"2015","11","Brejo dos Santos",1
+"2015","11","Catingueira",1
+"2015","11","Cuité de Mamanguape",1
+"2015","11","Ibiara",1
+"2015","11","Itaporanga",1
+"2015","11","Mãe d'Água",1
+"2015","11","Manaíra",1
+"2015","11","Riacho dos Cavalos",1
+"2015","11","Sumé",1
+"2015","12","Aroeiras",1
+"2015","12","Brejo dos Santos",1
+"2015","12","Catingueira",1
+"2015","12","Cuité de Mamanguape",1
+"2015","12","Ibiara",1
+"2015","12","Itaporanga",1
+"2015","12","Mãe d'Água",1
+"2015","12","Manaíra",1
+"2015","12","Riacho dos Cavalos",1
+"2015","12","Sumé",1
+"2016","01","Campina Grande",152
+"2016","02","Campina Grande",147
+"2016","03","Campina Grande",143
+"2016","04","Campina Grande",141
+"2016","05","Campina Grande",137
+"2016","01","João Pessoa",120
+"2016","02","João Pessoa",120
+"2016","04","João Pessoa",120
+"2016","05","João Pessoa",120
+"2016","03","João Pessoa",119
+"2016","01","Santa Rita",37
+"2016","02","Santa Rita",37
+"2016","03","Santa Rita",37
+"2016","04","Santa Rita",37
+"2016","05","Santa Rita",37
+"2016","05","Patos",17
+"2016","03","Sousa",16
+"2016","04","Patos",16
+"2016","04","Sousa",16
+"2016","05","Sousa",16
+"2016","01","Sousa",15
+"2016","02","Patos",15
+"2016","02","Sousa",15
+"2016","03","Patos",15
+"2016","01","Patos",14
+"2016","01","Guarabira",12
+"2016","02","Guarabira",12
+"2016","03","Guarabira",10
+"2016","04","Guarabira",10
+"2016","05","Guarabira",10
+"2016","01","Cuité",4
+"2016","01","Sapé",4
+"2016","01","Soledade",4
+"2016","02","Cuité",4
+"2016","02","Sapé",4
+"2016","02","Soledade",4
+"2016","03","Cuité",4
+"2016","03","Sapé",4
+"2016","04","Cuité",4
+"2016","04","Sapé",4
+"2016","05","Cuité",4
+"2016","05","Sapé",4
+"2016","01","Bananeiras",3
+"2016","02","Bananeiras",3
+"2016","03","Bananeiras",3
+"2016","03","Soledade",3
+"2016","04","Bananeiras",3
+"2016","04","Soledade",3
+"2016","05","Bananeiras",3
+"2016","05","Soledade",3
+"2016","01","Camalaú",2
+"2016","01","Duas Estradas",2
+"2016","01","Solânea",2
+"2016","02","Camalaú",2
+"2016","02","Duas Estradas",2
+"2016","02","Solânea",2
+"2016","03","Camalaú",2
+"2016","03","Duas Estradas",2
+"2016","03","Solânea",2
+"2016","04","Camalaú",2
+"2016","04","Conceição",2
+"2016","04","Duas Estradas",2
+"2016","04","Mamanguape",2
+"2016","04","Solânea",2
+"2016","05","Camalaú",2
+"2016","05","Duas Estradas",2
+"2016","05","Mamanguape",2
+"2016","05","Solânea",2
+"2016","01","Aroeiras",1
+"2016","01","Brejo dos Santos",1
+"2016","01","Catingueira",1
+"2016","01","Cuité de Mamanguape",1
+"2016","01","Itaporanga",1
+"2016","01","Mãe d'Água",1
+"2016","01","Manaíra",1
+"2016","01","Riacho dos Cavalos",1
+"2016","01","Sumé",1
+"2016","02","Aroeiras",1
+"2016","02","Brejo dos Santos",1
+"2016","02","Catingueira",1
+"2016","02","Cuité de Mamanguape",1
+"2016","02","Itaporanga",1
+"2016","02","Mãe d'Água",1
+"2016","02","Manaíra",1
+"2016","02","Riacho dos Cavalos",1
+"2016","02","Sumé",1
+"2016","03","Aroeiras",1
+"2016","03","Brejo dos Santos",1
+"2016","03","Catingueira",1
+"2016","03","Cuité de Mamanguape",1
+"2016","03","Itaporanga",1
+"2016","03","Mãe d'Água",1
+"2016","03","Manaíra",1
+"2016","03","Riacho dos Cavalos",1
+"2016","03","Sumé",1
+"2016","04","Aroeiras",1
+"2016","04","Brejo dos Santos",1
+"2016","04","Catingueira",1
+"2016","04","Cuité de Mamanguape",1
+"2016","04","Itaporanga",1
+"2016","04","Mãe d'Água",1
+"2016","04","Manaíra",1
+"2016","04","Riacho dos Cavalos",1
+"2016","04","Sertãozinho",1
+"2016","04","Sumé",1
+"2016","05","Aroeiras",1
+"2016","05","Brejo dos Santos",1
+"2016","05","Catingueira",1
+"2016","05","Conceição",1
+"2016","05","Cuité de Mamanguape",1
+"2016","05","Itaporanga",1
+"2016","05","Mãe d'Água",1
+"2016","05","Manaíra",1
+"2016","05","Riacho dos Cavalos",1
+"2016","05","Sertãozinho",1
+"2016","05","Sumé",1
