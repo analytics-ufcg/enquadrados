@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/google-material-icons.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body style="height:100%;">
@@ -43,7 +44,7 @@
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#EF4136;">
         <ul id="meters_squared_per_person" style="margin-left:20px; margin-right:20px;">
           <li>
-            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">X funcionários por m2</h5>
+            <h5 class="valign white-text" id="funcionario-m2" style="height:100px;">X funcionários por m2</h5>
           </li>
         </ul>
       </div>
@@ -95,9 +96,22 @@
           url: 'http://localhost:8000/cidades/' + params['city_id'] + '/summary?format=json',
           data: {},
           success: function(city_data, status) {
+            var data = city_data;
             var city_name = city_data["nome"];
             $('#city_name_in_toolbar').text(city_name);
             $('#city_name_in_toolbar_wrapper').css("display", "inline").css("visibility", "visible");
+
+            var populacao = data["populacao"];
+            var area = data["orgaos"][0]["area"];
+            var workers_total = 0;
+            for (worker_type in data["orgaos"][0]["quantidades"]) {
+              workers_total += data["orgaos"][0]["quantidades"][worker_type];
+            }
+            if (area > 0) {
+              $("#funcionario-m2").text("m2 por funcionário: " + (area / workers_total).toFixed(2));
+            } else {
+              $("#funcionario-m2").text("Não temos dados de área dessa cidade :(");
+            }
             console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
