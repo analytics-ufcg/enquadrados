@@ -10,32 +10,34 @@ class Estado(models.Model):
     nome = models.CharField(max_length=16)
     sigla = models.CharField(max_length=2, choices=ESTADOS_BRASIL, unique=True)
 
+    def __str__(self):
+        return self.sigla
+
 class Cidade(models.Model):
     estado = models.ForeignKey(Estado)
     nome = models.CharField(max_length=64)
 
-class Pessoa(models.Model):
-    nome = models.CharField(max_length=128)
-    cpf = models.CharField(max_length=15, unique=True)
-
 class OrgaoPublico(models.Model):
     cidade = models.ForeignKey(Cidade)
+    nome = models.CharField(max_length=128)
 
-class FolhaDePagamento(models.Model):
+class EstatisticaFolhaDePagamento(models.Model):
     orgao = models.ForeignKey(OrgaoPublico)
-    data = models.DateField()
+    mes = models.IntegerField()
+    ano = models.IntegerField()
+
+    def get_funcionarios_count(self):
+        return {f.tipo.nome: f.quantidade for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all()}
 
 class TipoFuncionario(models.Model):
     nome = models.CharField(max_length=128, unique=True)
 
-class Funcionario(models.Model):
-    folha = models.ForeignKey(FolhaDePagamento)
-    pessoa = models.ForeignKey(Pessoa)
-    salario = models.DecimalField(max_digits=10, decimal_places=2)
-    cargo = models.CharField(max_length=128)
+class QuantidadeTipoFuncionario(models.Model):
     tipo = models.ForeignKey(TipoFuncionario)
-    codigo = models.CharField(max_length=64)
-    
+    folha = models.ForeignKey(EstatisticaFolhaDePagamento)
+    quantidade = models.IntegerField(default=0)
+
 class Imovel(models.Model):
     orgao = models.ForeignKey(OrgaoPublico)
     area_m2 = models.DecimalField(max_digits=16, decimal_places=3)
+    data = models.DateTimeField()

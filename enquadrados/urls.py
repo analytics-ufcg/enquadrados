@@ -14,12 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
-from rest_framework import routers
-from municipio import views
-
-router = routers.DefaultRouter()
-router.register(r'cidades', views.CidadeViewSet)
+import municipio.urls
 
 urlpatterns = [
-    url(r'^', include(router.urls)),
+    url(r'^cidades/', include(municipio.urls)),
 ]
