@@ -33,6 +33,6 @@ class Command(BaseCommand):
                 except Cidade.DoesNotExist:
                     print 'Skipped cidade', cidade
                     continue
-                pop = float(row[2])
-                if not Populacao.objects.filter(cidade=cidade, ano=ano).exists:
+                pop = int(row[4].replace('.', ''))
+                if not Populacao.objects.filter(cidade=cidade, ano=ano).exists():
                     Populacao.objects.get_or_create(cidade=cidade, ano=ano, numero=pop)

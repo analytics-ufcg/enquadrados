@@ -33,6 +33,6 @@ class Command(BaseCommand):
                 except Cidade.DoesNotExist:
                     print 'Skipped cidade', row[1]
                     continue
-                pib = float(row[6].strip().split()[-1].replace(',', ''))
-                if not Pib.objects.filter(cidade=cidade, ano=ano).exists:
+                pib = float(row[8].strip().split()[-1].replace(',', ''))
+                if not Pib.objects.filter(cidade=cidade, ano=ano).exists():
                     Pib.objects.create(cidade=cidade, ano=ano, valor=pib)
