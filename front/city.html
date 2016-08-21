@@ -49,7 +49,7 @@
         </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#7555A3;">
-        <ul style="margin-left:20px; margin-right:20px;">
+        <ul id="funcionarios" style="margin-left:20px; margin-right:20px;">
           <li>
             <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Esses sao os cargos</h5>
           </li>
@@ -113,6 +113,19 @@
               $("#funcionario-m2").text("Não temos dados de área dessa cidade :(");
             }
             $("#funcionario-pop").text("Funcionários por 1000 habitantes: " + ((workers_total * 1000) / populacao).toFixed(2));
+
+            var funcs = [];
+            var index = 0;
+            var workers_total = 0;
+            for (entry in data["orgaos"][0]["quantidades"]) {
+              var valor = data["orgaos"][0]["quantidades"][entry]; 
+              workers_total += valor;
+              funcs.push({ 'nome': entry, 'valor': valor });
+            }
+            funcs.push({'nome': 'total', 'valor': workers_total});
+
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários:</h5></li>{{#results}}<li><h5 class='valign'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
+            $('#funcionarios').html(renderedList);
             console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
