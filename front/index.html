@@ -28,7 +28,6 @@
             <li class="hide-on-small-only right">
               <div class="valign-wrapper" style="height:100px;">
                 <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; font-family: 'Montserrat', 'sans-serif'; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left">search</i>
-                <!---->
                 <ul id="city_search_dropdown" class="dropdown-content">
                   <li><a href="#">Campina Grande</a></li>
                   <li><a href="#">Patos</a></li>
@@ -80,33 +79,6 @@
         </ul>
       </div>
     </div>
-    <div class="container" style="height:80%;">
-      <div class="row">
-	<div class="col s12">
-	  <h3 class="center">Alguma headline legal</h3>
-	</div>
-      </div>
-      <div class="row valign-wrapper" style="height:60%;">
-	<form class="col s12 valign">
-	  <div class="row">
-	    <div class="input-field col s12">
-	      <select>
-		<option value="1">Campina Grande</option>
-		<option value="2">Joao Pessoa</option>
-		<option value="3">Santa Rita</option>
-		<option value="4">Patos</option>
-	      </select>
-	      <label>Escolha a cidade desejada</label>
-	    </div>
-	  </div>
-	</form>
-      </div>
-      <div class="row">
-        <div class="col s12 center">
-          <a class="waves-effect waves-light btn" href="/city.html">Pesquisar</a>
-        </div>
-      </div>
-    </div>
     <footer class="page-footer" style="background-color:#414041;">
       <div class="container">
 	<div iclass="row">
@@ -127,11 +99,9 @@
     <script type="application/javascript">
       $(document).ready(function() {
         $('select').material_select();
-/*        $('.dropdown-button').dropdown({
-          activates: "city_search_dropdown",
-          belowOrigin: true,
-          alignment: 'right'
-        });*/
+        $('#city_search').on("change", function() {
+          console.log('city input text changed to ' + $('#city_search').val());
+        });
       });
     </script>
   </body>
