@@ -83,7 +83,7 @@
       </div>
       <div class="footer-copyright">
 	<div class="container">
-	<a class="grey-text text-lighten-4 right" href="#!">Link externo?</a>
+	<a class="grey-text text-lighten-4 right" href="https://www.facebook.com/analytics.ufcg?fref=ts">7o HackFest Analytics contra a Corrupção</a>
 	</div>
       </div>
     </footer>
@@ -127,7 +127,7 @@
             }
             funcs.push({'nome': 'total', 'valor': workers_total});
 
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários:</h5></li>{{#results}}<li><h5 class='valign'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários:</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
             $('#funcionarios').html(renderedList);
             console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {
