@@ -27,6 +27,10 @@ def cidade_summary(request, pk):
     cidade = get_object_or_404(Cidade, id=pk)
     ano, mes = parse_ano_mes(request)
     data = cidade.get_folha_todos_os_orgaos(ano, mes)
+    data['populacao'] = cidade.get_populacao(ano)
+    for orgdata in data['orgaos']:
+        org = OrgaoPublico.objects.get(id=orgdata['orgao_id'])
+        orgdata['area'] = org.get_area()
     return JsonResponse(data)
 
 def orgao_historico(request, pk):
