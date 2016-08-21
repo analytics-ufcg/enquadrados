@@ -48,6 +48,7 @@ class Cidade(models.Model):
             try:
                 folha = EstatisticaFolhaDePagamento.objects.get(orgao=org, ano=ano, mes=mes)
                 data_orgaos.append({'orgao': org.nome,
+                                    'orgao_id': org.id,
                                     'quantidades': folha.get_funcionarios_count()})
             except EstatisticaFolhaDePagamento.DoesNotExist:
                 pass

@@ -25,9 +25,25 @@ def cidades_summary(request):
 
 def cidade_summary(request, pk):
     cidade = get_object_or_404(Cidade, id=pk)
-    parse_ano_mes(request)
+    ano, mes = parse_ano_mes(request)
     data = cidade.get_folha_todos_os_orgaos(ano, mes)
     return JsonResponse(data)
+
+def orgao_historico(request, pk):
+    orgao = get_object_or_404(OrgaoPublico, id=pk)
+    folhas = EstatisticaFolhaDePagamento.objects.filter(orgao=orgao).order_by('ano', 'mes')
+    
+    data = []
+    for f in folhas:
+        fdata = {}
+        fdata['mes'] = f.mes
+        fdata['ano'] = f.ano
+        summary = f.get_summary()
+        total = sum(summary['quantidade_funcionarios'].values())
+        fdata.update(summary)
+        fdata['total_funcionarios'] = total
+        data.append(fdata)
+    return JsonResponse({'historico' : data})
 
 def cidades_ranking_tipo_funcionario_absoluto(request):
     ano, mes = parse_ano_mes(request)
