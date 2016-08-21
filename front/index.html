@@ -57,15 +57,15 @@
         </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#7555A3;">
-        <ul style="margin-left:20px; margin-right:20px;">
+        <ul id="comissionados_por_total" style="margin-left:20px; margin-right:20px;">
           <li>
             <h5 class="valign white-text" style="height:100px;">Mais cargos comissionados</h5>
           </li>
-          <li><h5 class="valign white-text">1. Campina Grande</h5></li>
-          <li><h5 class="valign white-text">2. Cajá</h5></li>
-          <li><h5 class="valign white-text">3. Santa Rita</h5></li>
-          <li><h5 class="valign white-text">4. João Pessoa</h5></li>
-          <li><h5 class="valign white-text">5. Bayeux</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
+          <li><h5 class="valign white-text">Loading...</h5></li>
         </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#5584A0;">
@@ -123,6 +123,31 @@
             }
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m2</h5></li>{{#results}}<li><h5 class='valign white-text'>{{position}}. {{city_name}} ({{ratio}} m2/pessoa)</h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
+          }, error: function(jqXHR, textStatus, errorThrown) {
+            console.log(errorThrown);
+          }
+        });
+        $.ajax({
+          type:'GET',
+          url: 'http://localhost:8000/cidades/ranking/funcionario/percentual?format=json&nome_tipo=Comissionado',
+          data: {},
+          success: function(data, status) {
+            var top_five = [];
+            var index = 0;
+            for (entry in data["folhas"]) {
+              if (index >= 5) {
+                break;
+              }
+              var city_name = data["folhas"][entry]["cidade"]["nome"];
+              var comissionados = data["folhas"][entry]["quantidade_funcionarios"]['Comissionado'];
+              var workers_total = 0;
+              for (worker_type in data["folhas"][entry]["quantidade_funcionarios"]) {
+                workers_total += data["folhas"][entry]["quantidade_funcionarios"][worker_type];
+              }
+              top_five.push({ 'city_name': city_name, 'quantidade': comissionados, 'total' : workers_total, 'position': ++index  });
+            }
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários comissionados</h5></li>{{#results}}<li><h5 class='valign white-text'>{{position}}. {{city_name}} ({{quantidade}} / {{total}})</h5></li>{{/results}}", { 'results': top_five });
+            $('#comissionados_por_total').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
           }
