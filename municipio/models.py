@@ -32,6 +32,13 @@ class Cidade(models.Model):
     def get_summary(self):
         return self.get_dados_basicos()
 
+    def get_populacao(self, ano):
+        #FIXME considerar o ano
+        try:
+            return Populacao.objects.filter(cidade=self).order_by('-ano').get().numero
+        except Populacao.DoesNotExist:
+            return None
+
     def get_folha_todos_os_orgaos(self, ano, mes):
         data = self.get_dados_basicos()
         data['mes'] = mes
@@ -94,6 +101,12 @@ class EstatisticaFolhaDePagamento(models.Model):
         for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all():
             quantidade_funcionarios[f.tipo.nome] = f.quantidade
         summary['quantidade_funcionarios'] = quantidade_funcionarios
+        return summary
+
+    def get_summary_com_populacao(self):
+        summary = self.get_summary()
+        populacao = self.orgao.cidade.get_populacao(self.ano)
+        summary['populacao'] = populacao
         return summary
 
 

@@ -84,3 +84,21 @@ def cidades_ranking_area(request):
     folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/float(x['area']), reverse=rev)
     return JsonResponse({'folhas': [q['folha'].get_summary() for q in folhas[:10]]})
     
+def cidades_ranking_populacao(request):
+    ano, mes = parse_ano_mes(request)
+    rev = request.GET.get('reverse', None)
+    if rev is None:
+        rev = True
+    elif len(rev) and rev == '1':
+        rev = False
+    else:
+        rev = True
+    pop_min = int(request.GET.get('pop_min', 0))
+
+    folhas = EstatisticaFolhaDePagamento.objects.filter(ano=ano, mes=mes)
+    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_total(),
+               'populacao': f.orgao.cidade.get_populacao(ano)} for f in folhas]
+    folhas = [f for f in folhas if f['quantidade'] != 0 and f['populacao'] != None and f['populacao'] > pop_min]
+    folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/float(x['populacao']), reverse=rev)
+    return JsonResponse({'folhas': [q['folha'].get_summary_com_populacao() for q in folhas[:10]]})
+    
