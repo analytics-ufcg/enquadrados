@@ -50,10 +50,10 @@
             <h5 class="valign white-text" style="height:100px;">Mais funcionários por m2</h5>
           </li>
           <li><h5 class="valign white-text" style="visibility:hidden;">...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text">Loading...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text">Carregando...</h5></li>
         </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#7555A3;">
@@ -62,10 +62,10 @@
             <h5 class="valign white-text" style="height:100px;">Mais cargos comissionados</h5>
           </li>
           <li><h5 class="valign white-text" style="visibility:hidden;">...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text">Loading...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text">Carregando...</h5></li>
         </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#5584A0;">
@@ -74,10 +74,10 @@
             <h5 class="valign white-text" style="height:100px;">Mais cargos por habitante</h5>
           </li>
           <li><h5 class="valign white-text" style="visibility:hidden;">...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text" style="visibility:hidden;">Loading...</h5></li>
-          <li><h5 class="valign white-text">Loading...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text" style="visibility:hidden;">Carregando...</h5></li>
+          <li><h5 class="valign white-text">Carregando...</h5></li>
         </ul>
       </div>
     </div>
@@ -113,15 +113,16 @@
               if (index >= 5) {
                 break;
               }
+              var city_id = data["folhas"][entry]["cidade"]["id"];
               var city_name = data["folhas"][entry]["cidade"]["nome"];
               var area = parseFloat(data["folhas"][entry]["area"]);
               var workers_total = 0;
               for (worker_type in data["folhas"][entry]["quantidade_funcionarios"]) {
                 workers_total += data["folhas"][entry]["quantidade_funcionarios"][worker_type];
               }
-              top_five.push({ 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
+              top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m2<br/><small>(m2 / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign white-text'>{{position}}. {{city_name}} ({{ratio}})</h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m2<br/><small>(m2 / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} ({{ratio}})</a></h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
@@ -188,7 +189,7 @@
               for (city_data in cities_data) {
                 var city_name = cities_data[city_data]["nome"];
                 var city_id = cities_data[city_data]["id"];
-                if (city_name.includes(city_query)) {
+                if (city_name.toLowerCase().includes(city_query.toLowerCase())) {
                   cities_found.push({ 'city_name': city_name, 'city_id': city_id });
                 }
               }

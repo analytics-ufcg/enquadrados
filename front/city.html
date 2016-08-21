@@ -114,7 +114,7 @@
               for (city_data in cities_data) {
                 var city_name = cities_data[city_data]["nome"];
                 var city_id = cities_data[city_data]["id"];
-                if (city_name.includes(city_query)) {
+                if (city_name.toLowerCase().includes(city_query.toLowerCase())) {
                   cities_found.push({ 'city_name': city_name, 'city_id': city_id });
                 }
               }
