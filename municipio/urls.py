@@ -10,4 +10,6 @@ urlpatterns = [
     url(r'^ranking/funcionario/percentual/$', views.cidades_ranking_tipo_funcionario_percentual, name='cidades-ranking-percentual'),
     url(r'^ranking/funcionario/area/$', views.cidades_ranking_area, name='cidades-ranking-area'),
     url(r'^ranking/funcionario/populacao/$', views.cidades_ranking_populacao, name='cidades-ranking-populacao'),
+
+    url(r'^orgao/(?P<pk>\d+)/historico/$', views.orgao_historico, name='cidades-orgao-historico'),
 ]
