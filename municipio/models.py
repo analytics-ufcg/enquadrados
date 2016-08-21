@@ -27,7 +27,7 @@ class EstatisticaFolhaDePagamento(models.Model):
     ano = models.IntegerField()
 
     def get_funcionarios_count(self):
-        return {f.tipo.nome: f.quantidade for f in self.quantidadetipodefuncionario_set.all()}
+        return {f.tipo.nome: f.quantidade for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all()}
 
 class TipoFuncionario(models.Model):
     nome = models.CharField(max_length=128, unique=True)
@@ -35,7 +35,7 @@ class TipoFuncionario(models.Model):
 class QuantidadeTipoFuncionario(models.Model):
     tipo = models.ForeignKey(TipoFuncionario)
     folha = models.ForeignKey(EstatisticaFolhaDePagamento)
-    quantidade = models.IntegerField()
+    quantidade = models.IntegerField(default=0)
 
 class Imovel(models.Model):
     orgao = models.ForeignKey(OrgaoPublico)
