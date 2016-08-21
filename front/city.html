@@ -29,16 +29,11 @@
               <div class="valign-wrapper" style="height:100px;">
                 <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; font-family: 'Montserrat', 'sans-serif'; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left">search</i>
                 <ul id="city_search_dropdown" class="dropdown-content">
-                  <li><a href="#">Campina Grande</a></li>
-                  <li><a href="#">Patos</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">João Pessoa</a></li>
-                  <li><a href="#">Santa Rita</a></li>
                 </ul>
               </div>
             </li>
-            <li class="right active">
-              <a class="valign-wrapper" href="#" style="height:100px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto; font-size:20pt;">CIDADE ATUAL</p></a>
+            <li id='city_name_in_toolbar_wrapper' class="right active" style="visibility:hidden;">
+              <a class="valign-wrapper" href="#" style="height:100px;"><p id='city_name_in_toolbar' class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto; font-size:20pt;"></p></a>
             </li>
           </ul>
         </div>
@@ -46,13 +41,31 @@
     </div>
     <div class="row">
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#EF4136;">
-        <!-- Adicione a classe 'valign' pro elemento aqui pra alinhar verticalmente (hopefully will work)-->
+        <ul id="meters_squared_per_person" style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">X funcionários por m2</h5>
+          </li>
+        </ul>
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#7555A3;">
-        <!-- Adicione a classe 'valign' pro elemento aqui pra alinhar verticalmente (hopefully will work)-->
+        <ul style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Esses sao os cargos</h5>
+          </li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">1. Campina Grande</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">2. Cajá</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">3. Santa Rita</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">4. João Pessoa</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">5. Bayeux</h5></li>
+        </ul>
+
       </div>
       <div class="col s4 valign-wrapper" style="height:500px; background-color:#5584A0;">
-        <!-- Adicione a classe 'valign' pro elemento aqui pra alinhar verticalmente (hopefully will work)-->
+        <ul style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Quantidade de cargos por habitante</h5>
+          </li>
+        </ul>
       </div>
     </div>
     <footer class="page-footer" style="background-color:#414041;">
@@ -72,9 +85,52 @@
     </footer>
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/mustache.min.js"></script>
     <script type="application/javascript">
       $(document).ready(function() {
+        var params = {};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;});
         $('select').material_select();
+        $.ajax({
+          type:'GET',
+          url: 'http://localhost:8000/cidades/' + params['city_id'] + '/summary?format=json',
+          data: {},
+          success: function(city_data, status) {
+            var city_name = city_data["nome"];
+            $('#city_name_in_toolbar').text(city_name);
+            $('#city_name_in_toolbar_wrapper').css("display", "inline").css("visibility", "visible");
+            console.log("shows city: " + city_name);
+          }, error: function(jqXHR, textStatus, errorThrown) {
+            console.log(errorThrown);
+          }
+        });
+        $.ajax({
+          type:'GET',
+          url: 'http://localhost:8000/cidades?format=json',
+          data: {},
+          success: function(cities_data, status) {
+            $('#city_search').on("change", function() {
+              var city_query = $('#city_search').val();
+              var cities_found = [];
+              for (city_data in cities_data) {
+                var city_name = cities_data[city_data]["nome"];
+                var city_id = cities_data[city_data]["id"];
+                if (city_name.includes(city_query)) {
+                  cities_found.push({ 'city_name': city_name, 'city_id': city_id });
+                }
+              }
+              if (cities_found.length <= 0) {
+                $('.dropdown-button').dropdown('close');
+              } else {
+                var renderedList = Mustache.render("{{#cities}}<li><a href='/city.html?city_id={{city_id}}'>{{city_name}}</a></li>{{/cities}}", { 'cities': cities_found });
+                $('#city_search_dropdown').html(renderedList);
+                $('.dropdown-button').dropdown('open');
+              }
+            });
+          }, error: function(jqXHR, textStatus, errorThrown) {
+            console.log(errorThrown);
+          }
+        });
+
       });
     </script>
   </body>
