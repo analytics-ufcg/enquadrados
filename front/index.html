@@ -112,12 +112,12 @@
                 break;
               }
               var city_name = data["folhas"][entry]["cidade"]["nome"];
-              var area = parseFloat(data["folhas"][entry]["area"]).toFixed(2);
+              var area = parseFloat(data["folhas"][entry]["area"]);
               var workers_total = 0;
               for (worker_type in data["folhas"][entry]["quantidade_funcionarios"]) {
                 workers_total += data["folhas"][entry]["quantidade_funcionarios"][worker_type];
               }
-              top_five.push({ 'city_name': city_name, 'ratio': area / workers_total, 'position': ++index  });
+              top_five.push({ 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='font-family: \'Montserrat\', \'sans-serif\'; height:100px;'>Mais funcionários por m2</h5></li>{{#results}}<li><h5 class='valign white-text' style='font-family: \'Montserrat\', \'sans-serif\';'>{{position}}. {{city_name}} ({{ratio}} m2/pessoa)</h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
