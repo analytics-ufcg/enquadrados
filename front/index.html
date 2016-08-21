@@ -3,51 +3,88 @@
   <head>
     <meta charset="utf-8">
     <title>Enquadrados</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/google-material-icons.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body style="height:100%;">
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo center">Enquadrados</a>
+    <div class="navbar-fixed" style="height:100px;">
+      <nav style="height:100px;">
+        <div class="nav-wrapper" style="background-color: #414042">
+          <ul id="nav-mobile">
+            <li>
+              <a class="valign-wrapper" href="#" style="height:100px;"><img class="valign" src="img/enquadrados-logo.svg" style="width:64px;"></a>
+            </li>
+            <li class="hide-on-med-and-down">
+              <a class="valign-wrapper" href="#" style="height:100px; width:150px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto;">Ranking</p></a>
+            </li>
+            <li class="hide-on-med-and-down">
+              <a class="valign-wrapper" href="#" style="height:100px; width:150px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto;">Sobre</p></a>
+            </li>
+            <li class="hide-on-med-and-down">
+              <a class="valign-wrapper" href="#" style="height:100px; width:150px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto;">Estatísticas</p></a>
+            </li>
+            <li class="hide-on-small-only right">
+              <div class="valign-wrapper" style="height:100px;">
+                <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; font-family: 'Montserrat', 'sans-serif'; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left">search</i>
+                <ul id="city_search_dropdown" class="dropdown-content">
+                  <li><a href="#">Campina Grande</a></li>
+                  <li><a href="#">Patos</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">João Pessoa</a></li>
+                  <li><a href="#">Santa Rita</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
-    <div class="container" style="height:80%;">
-      <div class="row">
-	<div class="col s12">
-	  <h3 class="center">Alguma headline legal</h3>
-	</div>
+    <div class="row">
+      <div class="col s4 valign-wrapper" style="height:500px; background-color:#EF4136;">
+        <ul style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Mais funcionários por m2</h5>
+          </li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">1. Soledade</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">2. Juazeirinho</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">3. Mãe Dágua</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">4. Campina Grande</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">5. Bayeux</h5></li>
+        </ul>
       </div>
-      <div class="row valign-wrapper" style="height:60%;">
-	<form class="col s12 valign">
-	  <div class="row">
-	    <div class="input-field col s12">
-	      <select>
-		<option value="1">Campina Grande</option>
-		<option value="2">Joao Pessoa</option>
-		<option value="3">Santa Rita</option>
-		<option value="4">Patos</option>
-	      </select>
-	      <label>Escolha a cidade desejada</label>
-	    </div>
-	  </div>
-	</form>
+      <div class="col s4 valign-wrapper" style="height:500px; background-color:#7555A3;">
+        <ul style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Mais cargos comissionados</h5>
+          </li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">1. Campina Grande</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">2. Cajá</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">3. Santa Rita</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">4. João Pessoa</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">5. Bayeux</h5></li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="col s12 center">
-          <a class="waves-effect waves-light btn" href="/city.html">Pesquisar</a>
-        </div>
+      <div class="col s4 valign-wrapper" style="height:500px; background-color:#5584A0;">
+        <ul style="margin-left:20px; margin-right:20px;">
+          <li>
+            <h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif'; height:100px;">Mais cargos por habitante</h5>
+          </li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">1. Soledade</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">2. Juazeirinho</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">3. Mãe Dágua</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">4. Campina Grande</h5></li>
+          <li><h5 class="valign white-text" style="font-family: 'Montserrat', 'sans-serif';">5. Bayeux</h5></li>
+        </ul>
       </div>
     </div>
-    <footer class="page-footer">
+    <footer class="page-footer" style="background-color:#414041;">
       <div class="container">
 	<div iclass="row">
 	  <div class="col l6 s12">
-	    <h5 class="white-text">Footer</h5>
-	    <p class="grey-text text-lighten-4">Mais informacoes relevantes aqui...</p>
+            <h5 class="white-text" style="font-family: 'Montserrat', 'sans-serif'; height:50px;">ENQUADRADOS</h5>
+	    <h6 class="grey-text text-lighten-4" style="font-family: 'Montserrat', 'sans-serif';">Mussum ipsum, cacilds vidis litra abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Sapien in monti palavris qui num siginifica nadis i pareci latim. Praesent malesuada uma nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Não sou faixa preta cumpadi, sou preto inteiris, inteiris.</h6>
 	  </div>
 	</div>
       </div>
@@ -62,6 +99,9 @@
     <script type="application/javascript">
       $(document).ready(function() {
         $('select').material_select();
+        $('#city_search').on("change", function() {
+          console.log('city input text changed to ' + $('#city_search').val());
+        });
       });
     </script>
   </body>

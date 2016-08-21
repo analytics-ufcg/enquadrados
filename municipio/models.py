@@ -23,11 +23,21 @@ class Cidade(models.Model):
     estado = models.ForeignKey(Estado)
     nome = models.CharField(max_length=64)
 
+    def __str__(self):
+        return self.nome.encode('utf-8')
+
     def get_dados_basicos(self):
         return {'nome': self.nome, 'estado': self.estado.sigla, 'id': self.id}
 
     def get_summary(self):
         return self.get_dados_basicos()
+
+    def get_populacao(self, ano):
+        #FIXME considerar o ano
+        try:
+            return Populacao.objects.filter(cidade=self).order_by('-ano').get().numero
+        except Populacao.DoesNotExist:
+            return None
 
     def get_folha_todos_os_orgaos(self, ano, mes):
         data = self.get_dados_basicos()
@@ -44,6 +54,16 @@ class Cidade(models.Model):
         data['orgaos'] = data_orgaos
         return data
 
+class Pib(models.Model):
+    cidade = models.ForeignKey(Cidade)
+    valor = models.DecimalField(max_digits=18, decimal_places=2)
+    ano = models.IntegerField()
+
+class Populacao(models.Model):
+    cidade = models.ForeignKey(Cidade)
+    numero = models.BigIntegerField()
+    ano = models.IntegerField()
+
 class OrgaoPublico(models.Model):
     cidade = models.ForeignKey(Cidade)
     nome = models.CharField(max_length=128)
@@ -52,6 +72,7 @@ class OrgaoPublico(models.Model):
         summary = {'id': self.id}
         summary['cidade'] = self.cidade.get_summary()
         summary['nome'] = self.nome
+        summary['area'] = self.get_area()
         return summary
 
     def get_area(self):
@@ -80,6 +101,12 @@ class EstatisticaFolhaDePagamento(models.Model):
         for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all():
             quantidade_funcionarios[f.tipo.nome] = f.quantidade
         summary['quantidade_funcionarios'] = quantidade_funcionarios
+        return summary
+
+    def get_summary_com_populacao(self):
+        summary = self.get_summary()
+        populacao = self.orgao.cidade.get_populacao(self.ano)
+        summary['populacao'] = populacao
         return summary
 
 
