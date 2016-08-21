@@ -119,9 +119,9 @@
               workers_total += valor;
               funcs.push({ 'nome': entry, 'valor': valor });
             }
-            funcs.push({'nome': 'total', 'valor': workers_total});
+            funcs.push({'nome': 'Total', 'valor': workers_total});
 
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários:</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
             $('#funcionarios').html(renderedList);
             console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {
