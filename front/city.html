@@ -53,6 +53,10 @@
                     <a href="#!" class="secondary-content"><i class="material-icons">thumb_up</i></a>
                   </li>
                 </ul>
+                <div class="row">
+                  <div id="job-distribution" class="col s2 offset-s5" style="height:150px;">
+                  </div>
+                </div>
 	      </div>
 	    </div>
           </div>
@@ -76,5 +80,22 @@
     </footer>
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="application/javascript">
+      $(document).ready(function() {
+        $("#job-distribution").append("<div style='width:100%; height:auto;'></div><div style='width:100%; height:auto;'></div><div style='width:100%; height:auto;'></div><div style='width:100%; height:auto;'></div>");
+        var displayer = function(percentage) {
+          var row = 1;
+          while (percentage > 0) {
+            if ($("#job-distribution").length >= 5) {
+              row = row + 1;
+            }
+            $("#job-distribution:nth-child(" + row + ")").append("<img src='img/people.svg' style='width:20%; display:inline-block; margin:0 auto; vertical-align:middle;'>");
+            percentage = percentage - 5;
+          }
+        };
+        displayer(64);
+      });
+    </script>
   </body>
 </html>
