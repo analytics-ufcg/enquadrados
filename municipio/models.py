@@ -23,6 +23,9 @@ class Cidade(models.Model):
     estado = models.ForeignKey(Estado)
     nome = models.CharField(max_length=64)
 
+    def __str__(self):
+        return self.nome.encode('utf-8')
+
     def get_dados_basicos(self):
         return {'nome': self.nome, 'estado': self.estado.sigla, 'id': self.id}
 
@@ -52,6 +55,7 @@ class OrgaoPublico(models.Model):
         summary = {'id': self.id}
         summary['cidade'] = self.cidade.get_summary()
         summary['nome'] = self.nome
+        summary['area'] = self.get_area()
         return summary
 
     def get_area(self):

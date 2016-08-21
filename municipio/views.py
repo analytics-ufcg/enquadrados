@@ -80,7 +80,7 @@ def cidades_ranking_area(request):
     folhas = EstatisticaFolhaDePagamento.objects.filter(ano=ano, mes=mes)
     folhas = [{'folha': f, 'quantidade': f.get_funcionarios_total(),
                'area': f.orgao.get_area()} for f in folhas]
-    folhas = [f for f in folhas if f['quantidade'] != 0]
-    folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/x['area'], reverse=rev)
+    folhas = [f for f in folhas if f['quantidade'] != 0 and f['area'] != 0]
+    folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/float(x['area']), reverse=rev)
     return JsonResponse({'folhas': [q['folha'].get_summary() for q in folhas[:10]]})
     
