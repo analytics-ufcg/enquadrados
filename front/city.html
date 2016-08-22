@@ -105,11 +105,11 @@
               workers_total += data["orgaos"][0]["quantidades"][worker_type];
             }
             if (area > 0) {
-              $("#funcionario-m2").text("m² por funcionário: " + (area / workers_total).toFixed(2));
+              $("#funcionario-m2").html("m² por funcionário:<br><h1>" + (area / workers_total).toFixed(2) + "</h1>");
             } else {
               $("#funcionario-m2").text("Não temos dados de área da Câmara Municipal dessa cidade :(");
             }
-            $("#funcionario-pop").text("Funcionários por 1000 habitantes: " + ((workers_total * 1000) / populacao).toFixed(2));
+            $("#funcionario-pop").html("Funcionários por 1000 habitantes:<br><h1>" + ((workers_total * 1000) / populacao).toFixed(2) + "</h1>");
 
             var funcs = [];
             var index = 0;
@@ -121,7 +121,7 @@
             }
             funcs.push({'nome': 'Total', 'valor': workers_total});
 
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários por tipo de contrato:</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
             $('#funcionarios').html(renderedList);
             console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {

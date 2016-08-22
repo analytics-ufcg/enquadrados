@@ -125,7 +125,7 @@
               }
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m²<br/><small>(m² / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m²<br/><small>(m² / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
@@ -151,7 +151,7 @@
               }
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'quantidade': comissionados, 'total' : workers_total, 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários comissionados<br/><small>(comissionados / total)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{quantidade}} / {{total}})</small></a></h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários comissionados<br/><small>(comissionados / total)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{quantidade}} / {{total}})</small></a></h5></li>{{/results}}", { 'results': top_five });
             $('#comissionados_por_total').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
@@ -177,7 +177,7 @@
               }
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (1000 * workers_total / populacao).toFixed(2), 'total' : workers_total, 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por habitante<br/><small>(funcionários por mil hab.)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por habitante<br/><small>(funcionários por mil hab.)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
             $('#cargos_por_habitante').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
