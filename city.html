@@ -90,7 +90,7 @@
         $('select').material_select();
         $.ajax({
           type:'GET',
-          url: 'http://enquadrados.herokuapp.com/cidades/' + params['city_id'] + '/summary?format=json',
+          url: 'https://enquadrados.herokuapp.com/cidades/' + params['city_id'] + '/summary?format=json',
           data: {},
           success: function(city_data, status) {
             var data = city_data;
@@ -130,7 +130,7 @@
         });
         $.ajax({
           type:'GET',
-          url: 'http://enquadrados.herokuapp.com/cidades?format=json',
+          url: 'https://enquadrados.herokuapp.com/cidades?format=json',
           data: {},
           success: function(cities_data, status) {
             $('#city_search').on("change", function() {
