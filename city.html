@@ -146,7 +146,7 @@
               if (cities_found.length <= 0) {
                 $('.dropdown-button').dropdown('close');
               } else {
-                var renderedList = Mustache.render("{{#cities}}<li><a href='/city.html?city_id={{city_id}}'>{{city_name}}</a></li>{{/cities}}", { 'cities': cities_found });
+                var renderedList = Mustache.render("{{#cities}}<li><a href='/city?city_id={{city_id}}'>{{city_name}}</a></li>{{/cities}}", { 'cities': cities_found });
                 $('#city_search_dropdown').html(renderedList);
                 $('.dropdown-button').dropdown('open');
               }
