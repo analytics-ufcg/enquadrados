@@ -15,7 +15,7 @@
         <div class="nav-wrapper" style="background-color: #414042">
           <ul id="nav-mobile">
             <li>
-              <a class="valign-wrapper" href="/" style="height:100px;"><img class="valign" src="img/enquadrados-logo.svg" style="width:64px;"></a>
+              <a class="valign-wrapper" href="/enquadrados" style="height:100px;"><img class="valign" src="img/enquadrados-logo.svg" style="width:64px;"></a>
             </li>
             <li class="hide-on-med-and-down">
               <a class="valign-wrapper" href="#" style="height:100px; width:150px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto;">Ranking</p></a>
@@ -146,7 +146,7 @@
               if (cities_found.length <= 0) {
                 $('.dropdown-button').dropdown('close');
               } else {
-                var renderedList = Mustache.render("{{#cities}}<li><a href='/city?city_id={{city_id}}'>{{city_name}}</a></li>{{/cities}}", { 'cities': cities_found });
+                var renderedList = Mustache.render("{{#cities}}<li><a href='/enquadrados/city?city_id={{city_id}}'>{{city_name}}</a></li>{{/cities}}", { 'cities': cities_found });
                 $('#city_search_dropdown').html(renderedList);
                 $('.dropdown-button').dropdown('open');
               }
