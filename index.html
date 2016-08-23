@@ -107,7 +107,7 @@
         $('select').material_select();
         $.ajax({
           type:'GET',
-          url: 'http://localhost:8000/cidades/ranking/funcionario/area?format=json',
+          url: 'http://enquadrados.herokuapp.com/cidades/ranking/funcionario/area?format=json',
           data: {},
           success: function(data, status) {
             var top_five = [];
@@ -133,7 +133,7 @@
         });
         $.ajax({
           type:'GET',
-          url: 'http://localhost:8000/cidades/ranking/funcionario/percentual?format=json&nome_tipo=Comissionado',
+          url: 'http://enquadrados.herokuapp.com/cidades/ranking/funcionario/percentual?format=json&nome_tipo=Comissionado',
           data: {},
           success: function(data, status) {
             var top_five = [];
@@ -159,7 +159,7 @@
         });
         $.ajax({
           type:'GET',
-          url: 'http://localhost:8000/cidades/ranking/funcionario/populacao?format=json',
+          url: 'http://enquadrados.herokuapp.com/cidades/ranking/funcionario/populacao?format=json',
           data: {},
           success: function(data, status) {
             var top_five = [];
@@ -185,7 +185,7 @@
         });
         $.ajax({
           type:'GET',
-          url: 'http://localhost:8000/cidades?format=json',
+          url: 'http://enquadrados.herokuapp.com/cidades?format=json',
           data: {},
           success: function(cities_data, status) {
             $('#city_search').on("change", function() {
