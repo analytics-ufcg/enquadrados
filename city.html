@@ -98,6 +98,13 @@
             $('#city_name_in_toolbar').text(city_name);
             $('#city_name_in_toolbar_wrapper').css("display", "inline").css("visibility", "visible");
 
+            if (data["orgaos"].length == 0) {
+              $("#funcionario-m2").text(" ");
+              $("#funcionarios").html("<h5 class='white-text'>Ainda não temos informações sobre a Câmara Municipal dessa cidade :(</h5>");
+              $("#funcionario-pop").text(" ");
+              return;
+            }
+
             var populacao = data["populacao"];
             var area = data["orgaos"][0]["area"];
             var workers_total = 0;
@@ -123,7 +130,6 @@
 
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Funcionários por tipo de contrato:</h5></li>{{#results}}<li><h5 class='valign white-text'>{{nome}}: {{valor}}</h5></li>{{/results}}", { 'results': funcs });
             $('#funcionarios').html(renderedList);
-            console.log("shows city: " + city_name);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
           }
