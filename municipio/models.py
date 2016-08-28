@@ -113,6 +113,7 @@ class EstatisticaFolhaDePagamento(models.Model):
 
 class TipoFuncionario(models.Model):
     nome = models.CharField(max_length=128, unique=True)
+    ativo = models.BooleanField(default=True)
 
 class QuantidadeTipoFuncionario(models.Model):
     tipo = models.ForeignKey(TipoFuncionario)
