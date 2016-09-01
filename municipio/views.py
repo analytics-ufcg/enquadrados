@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 from django.shortcuts import render
 from django.http import JsonResponse, Http404
 from django.db.models import Count, Sum, F, FloatField
@@ -58,6 +61,7 @@ def cidades_ranking_tipo_funcionario_absoluto(request):
     elif len(rev) and rev == '1':
         rev = False
 
+    #TODO desconsiderar inativos
     if nome_tipo:
         quantidades = QuantidadeTipoFuncionario.objects.filter(folha__ano=ano,
                       folha__mes=mes, tipo__nome=nome_tipo).distinct().order_by(
@@ -81,7 +85,7 @@ def cidades_ranking_tipo_funcionario_percentual(request):
         rev = True
 
     folhas = EstatisticaFolhaDePagamento.objects.filter(ano=ano, mes=mes)
-    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_total(),
+    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_ativos(),
                'quantidade_tipo': f.get_funcionarios_tipo(nome_tipo)} for f in folhas]
     folhas = [f for f in folhas if f['quantidade'] != 0]
     folhas = sorted(folhas, key=lambda x: float(x['quantidade_tipo'])/x['quantidade'], reverse=rev)
@@ -98,7 +102,7 @@ def cidades_ranking_area(request):
         rev = True
 
     folhas = EstatisticaFolhaDePagamento.objects.filter(ano=ano, mes=mes)
-    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_total(),
+    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_ativos(),
                'area': f.orgao.get_area()} for f in folhas]
     folhas = [f for f in folhas if f['quantidade'] != 0 and f['area'] != 0]
     folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/float(x['area']), reverse=rev)
@@ -116,7 +120,7 @@ def cidades_ranking_populacao(request):
     pop_min = int(request.GET.get('pop_min', 0))
 
     folhas = EstatisticaFolhaDePagamento.objects.filter(ano=ano, mes=mes)
-    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_total(),
+    folhas = [{'folha': f, 'quantidade': f.get_funcionarios_ativos(),
                'populacao': f.orgao.cidade.get_populacao(ano)} for f in folhas]
     folhas = [f for f in folhas if f['quantidade'] != 0 and f['populacao'] != None and f['populacao'] > pop_min]
     folhas = sorted(folhas, key=lambda x: float(x['quantidade'])/float(x['populacao']), reverse=rev)

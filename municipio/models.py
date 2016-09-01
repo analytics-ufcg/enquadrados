@@ -49,7 +49,7 @@ class Cidade(models.Model):
                 folha = EstatisticaFolhaDePagamento.objects.get(orgao=org, ano=ano, mes=mes)
                 data_orgaos.append({'orgao': org.nome,
                                     'orgao_id': org.id,
-                                    'quantidades': folha.get_funcionarios_count()})
+                                    'funcionarios': folha.get_funcionarios_data()})
             except EstatisticaFolhaDePagamento.DoesNotExist:
                 pass
         data['orgaos'] = data_orgaos
@@ -90,18 +90,27 @@ class EstatisticaFolhaDePagamento(models.Model):
 
     def get_funcionarios_total(self):
         return sum([f.quantidade for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all()])
+
+    def get_funcionarios_ativos(self):
+        return sum([f.quantidade for f in QuantidadeTipoFuncionario.objects.filter(folha=self, tipo__ativo=True).all()])
+
     def get_funcionarios_tipo(self, nome):
         try:
             return QuantidadeTipoFuncionario.objects.get(folha=self, tipo__nome=nome).quantidade
         except QuantidadeTipoFuncionario.DoesNotExist:
             return 0
 
+    def get_funcionarios_data(self):
+        funcionarios = {}
+        for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all():
+            funcionarios[f.tipo.nome] = {'tipo' : f.tipo.nome,
+                                         'quantidade' : f.quantidade,
+                                         'ativo' : f.tipo.ativo}
+        return funcionarios
+
     def get_summary(self):
         summary = self.orgao.get_summary()
-        quantidade_funcionarios = {}
-        for f in QuantidadeTipoFuncionario.objects.filter(folha=self).all():
-            quantidade_funcionarios[f.tipo.nome] = f.quantidade
-        summary['quantidade_funcionarios'] = quantidade_funcionarios
+        summary['funcionarios'] = self.get_funcionarios_data()
         return summary
 
     def get_summary_com_populacao(self):
@@ -114,6 +123,9 @@ class EstatisticaFolhaDePagamento(models.Model):
 class TipoFuncionario(models.Model):
     nome = models.CharField(max_length=128, unique=True)
     ativo = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.nome
 
 class QuantidadeTipoFuncionario(models.Model):
     tipo = models.ForeignKey(TipoFuncionario)

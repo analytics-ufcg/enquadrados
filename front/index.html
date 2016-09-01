@@ -120,7 +120,7 @@
               var city_id = data["folhas"][entry]["cidade"]["id"];
               var city_name = data["folhas"][entry]["cidade"]["nome"];
               var area = parseFloat(data["folhas"][entry]["area"]);
-              var workers_total = count_workers(data["folhas"][entry]["quantidade_funcionarios"]);;
+              var workers_total = count_workers(data["folhas"][entry]["funcionarios"]);;
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por m²<br/><small>(m² / funcionário)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
@@ -142,8 +142,8 @@
               }
               var city_id = data["folhas"][entry]["cidade"]["id"];
               var city_name = data["folhas"][entry]["cidade"]["nome"];
-              var comissionados = data["folhas"][entry]["quantidade_funcionarios"]['Comissionado'];
-              var workers_total = count_workers(data["folhas"][entry]["quantidade_funcionarios"]);
+              var comissionados = data["folhas"][entry]["funcionarios"]['Comissionado']['quantidade'];
+              var workers_total = count_workers(data["folhas"][entry]["funcionarios"]);
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'quantidade': comissionados, 'total' : workers_total, 'position': ++index  });
             }
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários comissionados<br/><small>(comissionados / total)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{quantidade}} / {{total}})</small></a></h5></li>{{/results}}", { 'results': top_five });
@@ -166,7 +166,7 @@
               var city_id = data["folhas"][entry]["cidade"]["id"];
               var city_name = data["folhas"][entry]["cidade"]["nome"];
               var populacao = data["folhas"][entry]["populacao"];
-              var workers_total = count_workers(data["folhas"][entry]["quantidade_funcionarios"]);
+              var workers_total = count_workers(data["folhas"][entry]["funcionarios"]);
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (1000 * workers_total / populacao).toFixed(2), 'total' : workers_total, 'position': ++index  });
             }
             var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Mais funcionários por habitante<br/><small>(funcionários por mil hab.)</small></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
