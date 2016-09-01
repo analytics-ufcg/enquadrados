@@ -84,6 +84,7 @@
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/mustache.min.js"></script>
+    <script type="text/javascript" src="js/enquadrados.js"></script>
     <script type="application/javascript">
       $(document).ready(function() {
         var params = {};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;});
@@ -100,10 +101,7 @@
 
             var populacao = data["populacao"];
             var area = data["orgaos"][0]["area"];
-            var workers_total = 0;
-            for (worker_type in data["orgaos"][0]["quantidades"]) {
-              workers_total += data["orgaos"][0]["quantidades"][worker_type];
-            }
+            var workers_total = count_workers(data["orgaos"][0]["quantidades"]);
             if (area > 0) {
               $("#funcionario-m2").html("m² por funcionário:<br><h1>" + (area / workers_total).toFixed(2) + "</h1>");
             } else {
@@ -113,10 +111,9 @@
 
             var funcs = [];
             var index = 0;
-            var workers_total = 0;
+            var workers_total = count_workers(data["orgaos"][0]["quantidades"]);
             for (entry in data["orgaos"][0]["quantidades"]) {
               var valor = data["orgaos"][0]["quantidades"][entry]; 
-              workers_total += valor;
               funcs.push({ 'nome': entry, 'valor': valor });
             }
             funcs.push({'nome': 'Total', 'valor': workers_total});
