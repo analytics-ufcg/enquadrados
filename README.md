@@ -10,5 +10,5 @@ Este projeto analisa os dados das folhas de pagamento das câmaras municipais da
 
 O projeto possui 2 partes:
 
-1) Backend que fornece os dados em JSON, atualmente implementado com Django
-2) Frontend em HTML
+* Backend que fornece os dados em JSON, atualmente implementado com [Django](https://www.djangoproject.com/)
+* Frontend em HTML, atualmente implementado utilizando [JQuery](https://jquery.com/) e [Materialize](http://materializecss.com/)
