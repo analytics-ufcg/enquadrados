@@ -1,8 +1,9 @@
-#Enquadrados
+#enquadrados
 
-##Como executar esse projeto.
 
-###Dependências
+###Como executar esse projeto.
+
+####Dependências
 
 Você precisará das seguintes dependências, além de Python 2.7 (e Pip):
 
@@ -22,16 +23,16 @@ Para levantar o backend em Django, na pasta raíz do projeto, rode o seguinte co
 
 Agora você só precisa rodar o frontend, então abra outra janela de terminal, vá pra raíz do projeto, e depois rode os seguintes comandos:
 
-`cd front`
-`python -m SimpleHTTPServer 8001`
+* `cd front`
+* `python -m SimpleHTTPServer 8001`
 
 Se tudo ocorrer bem, você deve poder acessar o Enquadrados através [desse link](http://localhost:8001).
 
 -----------------------
 
-##How to get this project up and running.
+###How to get this project up and running.
 
-###Dependencies
+####Dependencies
 
 You will need the following dependencies, besides Python 2.7 (and Pip):
 
@@ -51,7 +52,7 @@ Then to fire up the Django backend, on the project root run (which will start it
 
 Finally, you just need to start the frontend, so open up another terminal, go to the root of the project, and then issue the following commands:
 
-`cd front`
-`python -m SimpleHTTPServer 8001`
+* `cd front`
+* `python -m SimpleHTTPServer 8001`
 
 If everything goes well you should be able to see Enquadrados running on [this link](http://localhost:8001).
