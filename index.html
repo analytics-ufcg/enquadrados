@@ -28,11 +28,6 @@
               <div class="valign-wrapper" style="height:100px;">
                 <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left">search</i>
                 <ul id="city_search_dropdown" class="dropdown-content">
-                  <li><a href="#">Campina Grande</a></li>
-                  <li><a href="#">Patos</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">João Pessoa</a></li>
-                  <li><a href="#">Santa Rita</a></li>
                 </ul>
               </div>
             </li>
@@ -120,7 +115,7 @@
               var workers_total = count_workers(data["folhas"][entry]["funcionarios"]);;
               top_five.push({ 'city_id': city_id, 'city_name': city_name, 'ratio': (area / workers_total).toFixed(2), 'position': ++index  });
             }
-            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Menos metros quadrados por funcionário<br/><small class='valign white-text'>(m² / funcionário)</small><div class='valign white-text' style='font-size:10pt;'>Quanto cada funcionário teria de espaço para trabalhar?</div></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
+            var renderedList = Mustache.render("<li><h5 class='valign white-text' style='height:100px;'>Menos metros quadrados por funcionário<br/><small class='valign white-text'>(m² / funcionário)</small><div class='valign white-text' style='font-size:10pt;'>Quanto cada funcionário teria de espaço para trabalhar?</div></h5></li>{{#results}}<li><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;' href='/enquadrados/city.html?city_id={{city_id}}'>{{position}}. {{city_name}} <small>({{ratio}})</small></a></h5></li>{{/results}}", { 'results': top_five });
             $('#meters_squared_per_person').html(renderedList);
           }, error: function(jqXHR, textStatus, errorThrown) {
             console.log(errorThrown);
