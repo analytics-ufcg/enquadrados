@@ -15,8 +15,11 @@
       <nav style="height:100px;">
         <div class="nav-wrapper" style="background-color: #414042">
           <ul id="nav-mobile">
-            <li>
+            <li class='hide-on-small-only'>
               <a class="valign-wrapper" href="/" style="height:100px;"><img class="valign" src="img/enquadrados-logo.svg" style="width:64px;"></a>
+            </li>
+            <li class='hide-on-med-and-up'>
+              <a class="valign-wrapper" href="/" style="height:100px;"><img class="valign" src="img/enquadrados-logo.svg" style="width:40px;"></a>
             </li>
             <li class="hide-on-med-and-down">
               <a class="valign-wrapper" href="/" style="height:100px; width:150px;"><p class="valign" style="font-family: 'Montserrat', 'sans-serif'; margin:0 auto;">Ranking</p></a>
@@ -26,7 +29,7 @@
             </li>
             <li class="right active">
               <div class="valign-wrapper" style="height:100px;">
-                <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; font-family: 'Montserrat', 'sans-serif'; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left">search</i>
+                <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; font-family: 'Montserrat', 'sans-serif'; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left hide-on-small-only">search</i>
                 <ul id="city_search_dropdown" class="dropdown-content">
                 </ul>
               </div>
