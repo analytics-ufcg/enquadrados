@@ -5,9 +5,9 @@
     <title>Enquadrados</title>
     <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/google-material-icons.css">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="content/css/google-material-icons.css">
+    <link type="text/css" rel="stylesheet" href="content/css/materialize.min.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="content/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body style="height:100%;">
@@ -114,7 +114,7 @@
             var funcs = [];
             var index = 0;
             for (entry in data["orgaos"][0]["funcionarios"]) {
-              var valor = data["orgaos"][0]["funcionarios"][entry]['quantidade']; 
+              var valor = data["orgaos"][0]["funcionarios"][entry]['quantidade'];
               funcs.push({ 'nome': entry, 'valor': valor });
             }
             funcs.push({'nome': 'Total', 'valor': workers_total_com_inativos});
