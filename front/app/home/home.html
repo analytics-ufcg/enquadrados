@@ -1,114 +1,12 @@
-<!DOCTYPE html>
-<html style="height:100%;">
-  <head>
-    <meta charset="utf-8">
-    <title>Enquadrados</title>
-    <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="content/css/google-material-icons.css">
-    <link type="text/css" rel="stylesheet" href="content/css/materialize.min.css" media="screen,projection">
-    <link type="text/css" rel="stylesheet" href="content/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body style="height:100%;">
-    <div class="navbar-fixed" style="height:100px;">
-      <nav style="height:100px;">
-        <div class="nav-wrapper" style="background-color: #414042">
-          <ul id="nav-mobile">
-            <li class='hide-on-small-only'>
-              <a class="valign-wrapper" href="#" style="height:100px;"><img class="valign" src="content/img/enquadrados-logo.svg" style="width:64px;"></a>
-            </li>
-            <li class='hide-on-med-and-up'>
-              <a class="valign-wrapper" href="/" style="height:100px;"><img class="valign" src="content/img/enquadrados-logo.svg" style="width:40px;"></a>
-            </li>
-            <li class="hide-on-med-and-down">
-              <a class="valign-wrapper" href="#" style="height:100px; width:150px;"><p class="valign" style="margin:0 auto;">Ranking</p></a>
-            </li>
-            <li class="hide-on-med-and-down">
-              <a class="valign-wrapper" href="#about_bottom" style="height:100px; width:150px;"><p class="valign" style="margin:0 auto;">Sobre</p></a>
-            </li>
-            <li class="right active">
-              <div class="valign-wrapper" style="height:100px;">
-                <a id="search_button" class="valign waves-effect waves-light btn" style="background-color: #EF4136; height:60px;"><input id="city_search" class="autocomplete" type="text" placeholder="Busque sua cidade"><a class="dropdown-button" data-activates="city_search_dropdown" data-beloworigin="true" data-alignment="right" data-constrainwidth="false" style="display:gone;"></a></a><i class="material-icons left hide-on-small-only">search</i>
-                <ul id="city_search_dropdown" class="dropdown-content">
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="row">
-      <div class="col s12 m4 valign-wrapper" style="height:500px; background-color:#EF4136;">
-        <ul id="meters_squared_per_person" style="margin-left:20px; margin-right:20px;">
-          <li>
-            <h5 class="valign white-text" style="min-height:100px;">Menos m² por funcionário<br/><small class='valign white-text'>(m² / funcionário)</small><div class='valign white-text' style='font-size:10pt;'>Quanto cada funcionário teria de espaço para trabalhar?</div></h5>
-          </li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-        </ul>
-      </div>
-      <div class="col s12 m4 valign-wrapper" style="height:500px; background-color:#7555A3;">
-        <ul id="comissionados_por_total" style="margin-left:20px; margin-right:20px;">
-          <li>
-            <h5 class="valign white-text" style="min-height:100px;">Mais funcionários comissionados<br/><small>(comissionados / total)</small></h5>
-          </li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-        </ul>
-      </div>
-      <div class="col s12 m4 valign-wrapper" style="height:500px; background-color:#5584A0;">
-        <ul id="cargos_por_habitante" style="margin-left:20px; margin-right:20px;">
-          <li>
-            <h5 class="valign white-text" style="min-height:100px;">Mais funcionários por habitante<br/><small>(funcionários por mil hab.)</small></h5>
-          </li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='visibility:hidden; padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-          <li class='hide-on-med-only'><h5 class='valign'><a class='white-text hoverable' style='padding-left:20px; padding-right:20px;'>Carregando<small>...</small></a></h5></li>
-          <li class='hide-on-small-only hide-on-large-only'><div class='valign'><a class='white-text hoverable' style='padding-left:5px; padding-right:5px; font-size:12pt;'>Carregando<small>...</small></a></div></li>
-        </ul>
-      </div>
-    </div>
-    <footer class="page-footer" style="background-color:#414041;">
-      <div class="container">
-	      <div iclass="row">
-	        <div class="col l6 s12">
-            <h5 class="white-text" style="height:50px;">ENQUADRADOS</h5>
-            <h6 class="white-text"><b>Sobre</b></h6>
-            <p class="white-text">Com as eleições municipais chegando, que tal saber o perfil dos funcionários da Câmara Municipal da sua cidade? Será que o prédio consegue comportar a quantidade de funcionários contratados? Qual a relação de funcionários por metros quadrado do prédio? Esses funcionários são efetivos, eletivos ou comissionados? Este projeto foi desenvolvido no evento “Hackfest contra a corrupção”, uma parceria do laboratório Analytics, Ministério Público da Paraíba e a TV Paraíba.</p>
-            <h6 id="about_bottom" class="white-text"><b>Dados</b></h6>
-            <p class="white-text">As áreas de superfície das Câmaras Municipais foram calculadas através do Google Earth e consideram todo espaço interno dos prédios. A relação de funcionários, funções e tipos de contrato foram obtidos no banco de dados do <a href=https://sagres.tce.pb.gov.br/>SAGRES/PB</a>.</p>
-	        </div>
-	      </div>
-      </div>
-      <div class="footer-copyright">
-	      <div class="container">
-	        <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/analytics.ufcg?fref=ts">7o HackFest Analytics contra a Corrupção</a>
-	      </div>
-      </div>
-    </footer>
+<div ui-view="header"></div>
+
+<div ui-view="content"></div>
+
+<div ui-view="footer"></div>
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+
     <script type="text/javascript" src="content/js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="content/js/materialize.min.js"></script>
     <script type="text/javascript" src="content/js/mustache.min.js"></script>
@@ -224,4 +122,4 @@
       ga('send', 'pageview');
     </script>
   </body>
-</html>
+</html> -->

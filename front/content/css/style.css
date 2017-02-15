@@ -6,6 +6,23 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Montserrat', 'sans-serif'
+}
+
+/** {
+  border: 1px solid red;
+}*/
+
+/*
+ * =============================================================================
+ * HEADER
+ * =============================================================================
+*/
+header {
+   height:100px;
 }

@@ -8,9 +8,14 @@
 
   function stateConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
-    .state('app', {
+    .state('home', {
       url: '/home',
-      templateUrl: 'app/home/home.html'
+      views: {
+        '': {templateUrl: 'app/home/home.html'},
+        'header@home': {templateUrl: 'app/header/header.html'},
+        'content@home': {templateUrl: 'app/content/content.html'},
+        'footer@home': {templateUrl: 'app/footer/footer.html'}
+      }
     });
 
     $urlRouterProvider.otherwise('/home');
