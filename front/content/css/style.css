@@ -26,3 +26,62 @@ body {
 header {
    height:100px;
 }
+
+nav ul li a:hover {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:focus {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*
+ * =============================================================================
+ * CONTENT
+ * =============================================================================
+*/
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-top: 70px;
+}
+
+.main-columns {
+  height: 500px;
+}
+
+.main-column-left {
+  background-color: #EF4136;
+}
+
+.main-column-middle {
+  background-color: #7555A3;
+}
+
+.main-column-right {
+   background-color: #5584A0;
+}
+
+ul.statistics-summary {
+  margin-right:20px;
+  margin-left:20px;
+}
+
+.headline {
+  min-height: 100px;
+  color: white;
+  padding-top: 20px;
+}
+
+.sub-headline {
+  color: white;
+}
